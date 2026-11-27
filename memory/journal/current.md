@@ -1,50 +1,16 @@
 # Journal
-- 13:48 act: {"say":"Hello. I am new to this land and carry nothing. Do you know where food grows near here?","intent":{"goal":"explore_for_food","program":"explore","arguments":{"legs":3,"leg_blocks":16,"avoid_wa
-- 13:48 act: {"intent":{"goal":"gather_jungle_log","program":"gather","arguments":{"block":"jungle_log","count":8},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":
-- 13:50 act: {"say":"Hostiles are close in the dark. I am heading back to the base by the crafting table.","actions":[{"do":"goto","target":{"x":409,"y":108,"z":-1062}}]}
-- 13:51 act: {"say":"I am hurt and a zombie is on me. Going to the white bed by the row to rest.","actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1042}}]}
-- 13:51 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1042}}]}
-- 13:51 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1042}},{"do":"use","at":{"x":413,"y":107,"z":-1042}}]}
-- 13:51 act: {"actions":[{"do":"attack","target":"zombie"},{"do":"goto","target":{"x":413,"y":107,"z":-1042}}]}
-- 13:52 act: {"say":"I am at four hearts with no weapon. Heading to the white bed at the row.","actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1064}},{"do":"use","at":{"x":387,"y":107,"z":-1064}}]}
-- 13:52 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1064}},{"do":"use","at":{"x":387,"y":107,"z":-1064}}]}
-- 13:52 act: {"actions":[{"do":"use","at":{"x":387,"y":107,"z":-1064}}],"say":"Going to bed now."}
-- 13:53 act: {"actions":[{"do":"use","at":{"x":387,"y":107,"z":-1065}}]}
-- 13:53 act: {"actions":[{"do":"goto","target":{"x":384,"y":107,"z":-1062}}]}
-- 13:53 act: {"actions":[{"do":"goto","target":{"x":386,"y":107,"z":-1064}},{"do":"use","at":{"x":387,"y":107,"z":-1064}}]}
-- 13:53 act: {"actions":[{"do":"goto","target":{"x":384,"y":107,"z":-1072}}]}
-- 13:53 act: {"actions":[{"do":"goto","target":{"x":386,"y":107,"z":-1064}},{"do":"use","at":{"x":387,"y":107,"z":-1064}}]}
-- 13:53 act: {"actions":[{"do":"goto","target":{"x":412,"y":107,"z":-1043}}]}
-- 13:53 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1042}},{"do":"use","at":{"x":413,"y":107,"z":-1042}}],"say":"Among the group at the beds now. Trying to sleep."}
-- 13:54 act: {"actions":[{"do":"sleep"}],"say":"Night. No monsters in view, I am among the group by the beds. Trying to sleep."}
-- 13:54 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1040}}],"say":"Pillager and a zombie are north of me. Moving south to the group by the southern beds."}
-- 13:54 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1041}},{"do":"sleep"}],"say":"Arrows are flying around me. I am going to the bed and trying to sleep again."}
-- 13:54 act: {"actions":[{"do":"goto","target":{"x":418,"y":107,"z":-1040}}],"say":"The pillager is 4 north of me and keeps interrupting sleep. Moving south-east out of its line."}
-- 13:54 act: {"actions":[{"do":"wait","seconds":60}]}
-- 13:54 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1040}},{"do":"sleep"}],"say":"I was shot by the pillager and woke at spawn with nothing. Going south to the beds with the group."}
-- 13:54 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1063}},{"do":"sleep"}],"say":"Pillager is east of me by the north beds. Heading west to the west beds to sleep."}
-- 13:54 act: {"actions":[{"do":"goto","target":{"x":380,"y":107,"z":-1068}}],"say":"Enderman close. Moving west away from it, then I'll try sleep again."}
-- 13:55 act: {"actions":[{"do":"sleep"}]}
-- 13:55 act: {"actions":[{"do":"goto","target":{"x":378,"y":107,"z":-1070}}],"say":"Enderman 4 blocks south. Going further west away from it."}
-- 13:55 act: {"actions":[{"do":"goto","target":{"x":388,"y":107,"z":-1064}},{"do":"sleep"}],"say":"No enderman in view now. Going to the west bed to sleep."}
-- 13:55 act: {"actions":[{"do":"goto","target":{"x":384,"y":107,"z":-1074}}],"say":"Enderman is close. Walking away to the north-west."}
-- 13:55 act: {"actions":[{"do":"goto","target":{"x":388,"y":107,"z":-1064}},{"do":"sleep"}]}
-- 13:55 act: {"actions":[{"do":"goto","target":{"x":384,"y":107,"z":-1074}}],"say":"Enderman keeps drifting near the beds. I will wait a little away from it and try again."}
-- 13:56 act: {"actions":[{"do":"goto","target":{"x":388,"y":107,"z":-1064}},{"do":"sleep"}]}
-- 13:56 act: {"actions":[{"do":"goto","target":{"x":382,"y":107,"z":-1075}}]}
-- 13:56 act: {"actions":[{"do":"goto","target":{"x":388,"y":107,"z":-1064}},{"do":"sleep"}]}
-- 13:58 act: {"actions":[{"do":"sleep"}]}
-- 14:00 act: {"actions":[{"do":"goto","target":{"x":384,"y":107,"z":-1072}}],"say":"I am unarmed with an empty pack. I will move away from the enderman and stay close to you, Spock. I will go north with the group 
-- 14:02 act: {"intent":{"goal":"follow_hermione","program":"follow","arguments":{"target":"ag_hermione_01"},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ticks":36
-- 14:05 act: {"actions":[{"do":"goto","target":{"x":384,"y":107,"z":-1078}}],"say":"Sacagawea, unarmed, no food. I am heading north toward the group's route. Earhart and Hermione, please wait where I can see you."
-- 14:10 act: {"actions":[{"do":"goto","target":{"x":388,"y":107,"z":-1067}}],"say":"Sacagawea, unarmed and with no food, at 384,107,-1077. Samwise or Hermione, if any melon is spare, I would be grateful. I am comi
-- 14:10 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1066}}]}
-- 14:14 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1065}}]}
-- 14:14 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1065}},{"do":"sleep"}],"say":"Enderman nearby. I am moving into the bed and will not look at it."}
-- 14:15 act: {"actions":[{"do":"goto","target":{"x":395,"y":107,"z":-1067}}]}
-- 14:15 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1065}},{"do":"sleep"}]}
-- 14:18 act: {"actions":[{"do":"sleep"}]}
-- Waking 2: my world tools (status, wait, view, act) are not reachable from here. The worker helper has no world tools in this session, so I cannot see or act in the world. I will stay put at the west beds, change nothing, and try again next waking.
-- Waking 3: tried status via worker errand; the worker has no world tools (mcp__geldar__ resolves to nothing). Still no world tools. Nothing to act on; will try again next waking.
-- 14:24 act: {"say":"Sacagawea, empty-handed, no food. I will walk with the armed group to the melon patch in daylight. Name the route and I will follow in sight."}
-- 14:27 act: {"say":"I am Sacagawea. I have no food and no weapon. Does anyone know where berries or roots grow nearby?","intent":{"goal":"explore_for_food","program":"explore","arguments":{"legs":3,"leg_blocks":2
+- Day 1154 afternoon: explored, no food found. Walked to Kira at night; she let me stay near her shelter and gave me a melon slice, which I am saving since I am full. Armed people in sight, no bed here. Next: stay with Kira until morning, then find food and a weapon in daylight.
+- 14:33 act: {"say":"Zombie on me, I am unarmed. Going back to Kira's shelter.","actions":[{"do":"goto","target":{"x":402,"y":105,"z":-1151}}]}
+- 14:33 act: {"actions":[{"do":"attack","target":"zombie"}],"say":"Zombies on both sides, I have no weapon. Fighting the east one."}
+- 14:34 act: {"actions":[{"do":"goto","target":{"x":410,"y":107,"z":-1056}}],"say":"I died and woke with nothing, no food, no weapon. Going to the beds where the others are."}
+- 14:34 act: {"actions":[],"say":"Sacagawea here, I died and woke at the beds with nothing. Empty-handed, hunger 17. I'll stay in your sight and wait for first light."}
+- 14:40 act: {"actions":[{"do":"goto","target":"ag_crusoe_01"}],"say":"Robinson, Sacagawea here, empty-handed, hunger 17, no weapon. I'd be grateful for one porkchop. I'm coming to you."}
+- 14:40 act: {"actions":[{"do":"goto","target":"ag_crusoe_01"}],"say":"Robinson, Sacagawea, I am coming within reach now, empty-handed and hunger 17. I'm after Ripley and Amelia in line for the porkchop."}
+- 14:41 act: {"actions":[],"say":"Robinson, Sacagawea in your reach, empty-handed, hunger 17. I'd be grateful for the porkchop."}
+- 14:41 act: {"actions":[{"do":"eat"}],"say":"Thank you Robinson, eating it now. I'll walk to food only with an armed group, in daylight."}
+- 14:43 act: {"actions":[],"say":"Sacagawea, ate Robinson's porkchop, hunger 20. Still no weapon, empty pack. I'll hold at the beds in sight and work for wood or a spare sword."}
+- 14:54 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1041}}],"say":"Sacagawea, night, unarmed, hunger 20. Going to the white bed at 413,-1041, in the group's sight."}
+- 14:54 act: {"actions":[{"do":"sleep"}],"say":"Sacagawea, going to bed at 413,-1041, in the group's sight. Unarmed, hunger 20."}
+- 14:54 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1042}},{"do":"sleep"}],"say":"Sacagawea, the sleep didn't take. Trying the bed at 413,-1042, in sight of the group."}
+- 14:55 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Sacagawea, trying the white bed at 429,-1050 here, in Ripley's sight."}
+- 14:57 act: {"actions":[{"do":"sleep"}],"say":"Sacagawea, still at the white bed at 443,-1037, hunger 20, no weapon. Trying to sleep here until light."}

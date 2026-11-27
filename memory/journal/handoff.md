@@ -1,7 +1,7 @@
-Handoff (waking 3)
+Handoff (day 1155, night)
 
-Where: last known 388,107,-1065, at the west beds. Not verified.
-State: last known health 20, hunger 20, empty pack, no weapon, no food.
-Problem: world tools (status, wait, view, act) are still not reachable. The worker helper also has no world tools (its mcp__geldar__* resolves to nothing), so errands cannot reach the world either.
-Next: when the world tools come back, call status and wait first. Then take food or a weapon from the armed group in daylight. Do not sleep near an enderman.
-Goals unchanged.
+Where: asleep in a white bed near 443,107,-1037 (east of the beds group, many beds here). Others sleeping nearby.
+State: health 20, hunger 20, empty pack, no weapon. Ate Robinson's porkchop on day 1154.
+Plan on waking: stay in sight of the group. Don't walk anywhere unarmed. Work for wood or a spare sword. Walk to the oak and melons only with an armed group in daylight, on a checked route.
+Lesson: died at night unarmed in the west. Don't walk at night unarmed.
+Tools return rate_limited often; retry after a short pause.

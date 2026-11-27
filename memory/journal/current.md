@@ -20,4 +20,5 @@
 - Waking 27 and 28: status and wait still "No such tool available". Did not move. Still at the white bed near 443,107,-1035, unarmed, hunger last known 20.
 - Waking 29: recall("summary") returned only its heading, no days. status "No such tool available" (mcp__geldar__status); wait also "No such tool available" (mcp__geldar__wait). Did not move. Still at the white bed near 443,107,-1035, unarmed, hunger last known 20. Stopping until the tools return.
 - Waking 31: recall("summary") empty again; status and wait both "No such tool available". Did not move. Still at the white bed near 443,107,-1035, unarmed, hunger last known 20. Stopping until the tools return.
+- Waking 32: status and wait both returned rate_limited (retryAfter 1s), and so did journal. Did not move. Last known: white bed near 443,107,-1035, unarmed, hunger last known 20. Next waking: retry status, then wait.
 - Waking 30: recall("summary") returned only its heading again. No world tools in my hands; the worker helper has no game tools either (its tools resolved to nothing). Did not move. Still at the white bed near 443,107,-1035, unarmed, hunger last known 20. Stopping until the tools return.

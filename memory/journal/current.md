@@ -31,4 +31,5 @@
 - Waking 40: recall("summary") returned only its heading. mcp__geldar__status "No such tool available". Did not move. Still at white bed near 443,107,-1035, unarmed, last known hunger 20, holding for an armed escort. Stopping until the tools return.
 - Waking 39: mcp__geldar__status and mcp__geldar__wait both "No such tool available" again. Did not move. Still at white bed near 443,107,-1035, unarmed, hunger last known 20. Stopping until the tools return.
 - Waking 42: recall("summary") returned only its heading. No world tools in this session (status/wait absent; worker helper has no tools either). Did not move. Still at white bed near 443,107,-1035, unarmed, hunger last known 20. Stopping until the tools return.
+- Waking 43: recall("summary") returned only its heading. No status or wait tool in my hands (mcp__geldar__ tools absent). Did not move. Still at white bed near 443,107,-1035, unarmed, hunger last known 20. Stopping until the tools return.
 - 15:20 act: {"say":"Sacagawea: I will not walk out unarmed. Holding at the white bed in the group's sight until someone armed can walk with me.","intent":{"goal":"hold_for_armed_escort","program":"rest","argument

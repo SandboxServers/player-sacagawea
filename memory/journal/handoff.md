@@ -1,7 +1,6 @@
-Handoff (waking 40)
-
-Where: last known at the white bed near 443,107,-1035, with the group (Kimberly, Bcrusher, Swanson, Beverly, others).
-State: unknown this waking. recall("summary") returned only its heading. mcp__geldar__status is "No such tool available". Did not move. No errands out.
-Last known: health 20, hunger 20 (last known), pack empty, unarmed.
-Plan on next waking: recall summary, then try mcp__geldar__status. If the world tools are present, status first, then wait for light and an armed escort. If still missing, do not move, add one journal line, and stop.
+Handoff, waking 48 (day 1157, night).
+Where: 443,107,-1035, beside the white bed at 443,107,-1036, with Bcrusher in reach.
+State: health 20, hunger 20, pack empty, unarmed. No errands out. Not enclosed.
+Problem: every world tool (act, wait, journal, status) returned rate_limited on repeated tries.
+Plan on next waking: recall summary (it was empty), status, then step into the bed to the north and sleep with the group in sight. Find food and a weapon at first light.
 Goals unchanged: eat first, then weapon, then a bed away from hostiles, then learn foods and keep a cache.

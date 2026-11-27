@@ -11,3 +11,4 @@
 - Waking 145: dawn, day 1162. Empty pack, health and hunger 20, at the tables near -960,78,-3020, 7 days since sleep. Tried goto to the cow at -974,80,-3017 and wait; every call was rate limited. Nothing moved. Next: retry goto to the cow, then the bed to the south-east.
 - Waking 146: recall summary empty. The game tools (status, wait) are not loaded in my hands, and the worker and general errands both report no game tools. Nothing moved. Last known: empty pack, near -960,78,-3020, 7 days since sleep. Next waking: try status again first.
 - Waking 143: night at the tables near -960,78,-3020 with about 15 others. Phantom 12 blocks east. Set intent hold_for_dawn (rest) and said I'd walk to the cow at first light. Wait call was rate limited; next: wait, then cow at dawn.
+- 17:21 say: {"text":"Sacagawea, morning, empty pack, health and hunger 20. I'm staying at the tables in sight of the group. I'll wait for someone to find wood before I move."}

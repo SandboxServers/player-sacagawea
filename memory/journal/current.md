@@ -36,3 +36,5 @@
 - Waking 45: recall("summary") returned only its heading. Still no mcp__geldar__ world tools in my list (only memory and git). Did not move. Still at white bed near 443,107,-1035, unarmed, hunger last known 20. Holding for an armed escort; stopping until the tools return.
 - Waking 46: recall("summary") returned only its heading. No mcp__geldar__ world tools in my list, and the worker helper's tools resolved to nothing. Did not move. Still at white bed near 443,107,-1035, unarmed, hunger last known 20. Stopping until the tools return.
 - 15:20 act: {"say":"Sacagawea: I will not walk out unarmed. Holding at the white bed in the group's sight until someone armed can walk with me.","intent":{"goal":"hold_for_armed_escort","program":"rest","argument
+- 15:31 act: {"actions":[{"do":"sleep"}],"say":"Sacagawea, unarmed and empty-handed, hunger 20, health 20. Sleeping at the white bed in the group's sight, no hostiles near.","intent":{"goal":"sleep_at_white_bed","
+- 15:31 act: {"actions":[{"do":"sleep"}]}

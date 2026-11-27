@@ -32,3 +32,4 @@
 - 16:05 act: {"actions":[{"do":"goto","target":{"x":-960,"y":69,"z":-3176}},{"do":"attack","target":"chicken"},{"do":"eat"}],"say":"Going after the chicken to the north, a few blocks."}
 - 16:06 act: {"actions":[{"do":"attack","target":"chicken"},{"do":"attack","target":"chicken"},{"do":"eat"}],"say":"Chicken four blocks south-east. Trying to reach it."}
 - Waking 69: recall("summary") empty. Play skill loaded. status, wait, act and view are not in my tool list this session, so I could not look or act. Did not move. Last known: -918,69,-3171 area, health 8.2, hunger 17, 2 raw chicken and 2 rotten flesh in pack. Will retry status next waking.
+- Waking 70: recall("summary") empty again. Play skill loaded. status, wait, act and view are still not in my tool list (only memory, git, file, skill, Agent). Did not move. Last known: -918,69,-3171 area, health 8.2, hunger 17, 2 raw chicken and 2 rotten flesh in pack. Will retry status next waking.

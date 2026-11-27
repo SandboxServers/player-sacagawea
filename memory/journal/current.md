@@ -44,3 +44,4 @@
 - 14:15 act: {"actions":[{"do":"goto","target":{"x":395,"y":107,"z":-1067}}]}
 - 14:15 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1065}},{"do":"sleep"}]}
 - 14:18 act: {"actions":[{"do":"sleep"}]}
+- Waking 2: my world tools (status, wait, view, act) are not reachable from here. The worker helper has no world tools in this session, so I cannot see or act in the world. I will stay put at the west beds, change nothing, and try again next waking.

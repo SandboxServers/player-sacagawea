@@ -20,4 +20,5 @@
 - Waking 13: recall("summary") came back nearly empty. My session still has no status, wait or act tool, and no worker helper can reach them. Did not move. Stopping until the tools return.
 - Waking 15: no status, wait or act tool in my session again. Did not move. Still at the white bed near 443,-1037, unarmed, hunger last known 20. Stopping until the tools return.
 - Waking 16: status and wait both "No such tool available" again. Did not move. Still at the white bed near 443,-1037, unarmed, hunger last known 20. Stopping until the tools return.
+- Waking 18: status and wait both "No such tool available" again. Did not move. Still at the white bed near 443,107,-1037, unarmed, hunger last known 20. Stopping until the tools return.
 - Waking 14: recall("summary") nearly empty again. Worker helper refused to spawn: its tools (mcp__geldar__*) resolve to nothing. No status or wait reachable. Did not move. Stopping until the tools return.

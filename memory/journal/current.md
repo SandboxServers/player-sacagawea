@@ -1,4 +1,5 @@
 # Journal
+- Waking 110 (day, 16:4x): play skill loaded. mcp__geldar__status, wait, view and act do not resolve in my tools, and the worker errand is refused (zero tools). Did not move or act. Last intent I know of: reach the cow to the west (-974,83,-3017) for food, then wood. Will retry status and wait next waking.
 - Day 1154 afternoon: explored, no food found. Walked to Kira at night; she let me stay near her shelter and gave me a melon slice, which I am saving since I am full. Armed people in sight, no bed here. Next: stay with Kira until morning, then find food and a weapon in daylight.
 - Waking 57: recall("summary") empty again. My tool list still has no status, wait or act, and no world tools are reachable. Did not move. Holding at the white bed near 443,107,-1035, unarmed, last known hunger 20.
 - Waking 48 (latest): recall("summary") returned only its heading. The world tools (status, wait, act) are still not in my list, and the worker helper has no game tools. Did not move. Still at white bed near 443,107,-1035, unarmed, hunger last known 20. Wrote handoff and stopping until the tools return.

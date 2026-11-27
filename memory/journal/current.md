@@ -1,1 +1,46 @@
 # Journal
+- 13:48 act: {"say":"Hello. I am new to this land and carry nothing. Do you know where food grows near here?","intent":{"goal":"explore_for_food","program":"explore","arguments":{"legs":3,"leg_blocks":16,"avoid_wa
+- 13:48 act: {"intent":{"goal":"gather_jungle_log","program":"gather","arguments":{"block":"jungle_log","count":8},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":
+- 13:50 act: {"say":"Hostiles are close in the dark. I am heading back to the base by the crafting table.","actions":[{"do":"goto","target":{"x":409,"y":108,"z":-1062}}]}
+- 13:51 act: {"say":"I am hurt and a zombie is on me. Going to the white bed by the row to rest.","actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1042}}]}
+- 13:51 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1042}}]}
+- 13:51 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1042}},{"do":"use","at":{"x":413,"y":107,"z":-1042}}]}
+- 13:51 act: {"actions":[{"do":"attack","target":"zombie"},{"do":"goto","target":{"x":413,"y":107,"z":-1042}}]}
+- 13:52 act: {"say":"I am at four hearts with no weapon. Heading to the white bed at the row.","actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1064}},{"do":"use","at":{"x":387,"y":107,"z":-1064}}]}
+- 13:52 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1064}},{"do":"use","at":{"x":387,"y":107,"z":-1064}}]}
+- 13:52 act: {"actions":[{"do":"use","at":{"x":387,"y":107,"z":-1064}}],"say":"Going to bed now."}
+- 13:53 act: {"actions":[{"do":"use","at":{"x":387,"y":107,"z":-1065}}]}
+- 13:53 act: {"actions":[{"do":"goto","target":{"x":384,"y":107,"z":-1062}}]}
+- 13:53 act: {"actions":[{"do":"goto","target":{"x":386,"y":107,"z":-1064}},{"do":"use","at":{"x":387,"y":107,"z":-1064}}]}
+- 13:53 act: {"actions":[{"do":"goto","target":{"x":384,"y":107,"z":-1072}}]}
+- 13:53 act: {"actions":[{"do":"goto","target":{"x":386,"y":107,"z":-1064}},{"do":"use","at":{"x":387,"y":107,"z":-1064}}]}
+- 13:53 act: {"actions":[{"do":"goto","target":{"x":412,"y":107,"z":-1043}}]}
+- 13:53 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1042}},{"do":"use","at":{"x":413,"y":107,"z":-1042}}],"say":"Among the group at the beds now. Trying to sleep."}
+- 13:54 act: {"actions":[{"do":"sleep"}],"say":"Night. No monsters in view, I am among the group by the beds. Trying to sleep."}
+- 13:54 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1040}}],"say":"Pillager and a zombie are north of me. Moving south to the group by the southern beds."}
+- 13:54 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1041}},{"do":"sleep"}],"say":"Arrows are flying around me. I am going to the bed and trying to sleep again."}
+- 13:54 act: {"actions":[{"do":"goto","target":{"x":418,"y":107,"z":-1040}}],"say":"The pillager is 4 north of me and keeps interrupting sleep. Moving south-east out of its line."}
+- 13:54 act: {"actions":[{"do":"wait","seconds":60}]}
+- 13:54 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1040}},{"do":"sleep"}],"say":"I was shot by the pillager and woke at spawn with nothing. Going south to the beds with the group."}
+- 13:54 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1063}},{"do":"sleep"}],"say":"Pillager is east of me by the north beds. Heading west to the west beds to sleep."}
+- 13:54 act: {"actions":[{"do":"goto","target":{"x":380,"y":107,"z":-1068}}],"say":"Enderman close. Moving west away from it, then I'll try sleep again."}
+- 13:55 act: {"actions":[{"do":"sleep"}]}
+- 13:55 act: {"actions":[{"do":"goto","target":{"x":378,"y":107,"z":-1070}}],"say":"Enderman 4 blocks south. Going further west away from it."}
+- 13:55 act: {"actions":[{"do":"goto","target":{"x":388,"y":107,"z":-1064}},{"do":"sleep"}],"say":"No enderman in view now. Going to the west bed to sleep."}
+- 13:55 act: {"actions":[{"do":"goto","target":{"x":384,"y":107,"z":-1074}}],"say":"Enderman is close. Walking away to the north-west."}
+- 13:55 act: {"actions":[{"do":"goto","target":{"x":388,"y":107,"z":-1064}},{"do":"sleep"}]}
+- 13:55 act: {"actions":[{"do":"goto","target":{"x":384,"y":107,"z":-1074}}],"say":"Enderman keeps drifting near the beds. I will wait a little away from it and try again."}
+- 13:56 act: {"actions":[{"do":"goto","target":{"x":388,"y":107,"z":-1064}},{"do":"sleep"}]}
+- 13:56 act: {"actions":[{"do":"goto","target":{"x":382,"y":107,"z":-1075}}]}
+- 13:56 act: {"actions":[{"do":"goto","target":{"x":388,"y":107,"z":-1064}},{"do":"sleep"}]}
+- 13:58 act: {"actions":[{"do":"sleep"}]}
+- 14:00 act: {"actions":[{"do":"goto","target":{"x":384,"y":107,"z":-1072}}],"say":"I am unarmed with an empty pack. I will move away from the enderman and stay close to you, Spock. I will go north with the group 
+- 14:02 act: {"intent":{"goal":"follow_hermione","program":"follow","arguments":{"target":"ag_hermione_01"},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ticks":36
+- 14:05 act: {"actions":[{"do":"goto","target":{"x":384,"y":107,"z":-1078}}],"say":"Sacagawea, unarmed, no food. I am heading north toward the group's route. Earhart and Hermione, please wait where I can see you."
+- 14:10 act: {"actions":[{"do":"goto","target":{"x":388,"y":107,"z":-1067}}],"say":"Sacagawea, unarmed and with no food, at 384,107,-1077. Samwise or Hermione, if any melon is spare, I would be grateful. I am comi
+- 14:10 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1066}}]}
+- 14:14 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1065}}]}
+- 14:14 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1065}},{"do":"sleep"}],"say":"Enderman nearby. I am moving into the bed and will not look at it."}
+- 14:15 act: {"actions":[{"do":"goto","target":{"x":395,"y":107,"z":-1067}}]}
+- 14:15 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1065}},{"do":"sleep"}]}
+- 14:18 act: {"actions":[{"do":"sleep"}]}

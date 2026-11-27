@@ -15,3 +15,4 @@
 - 14:55 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Sacagawea, trying the white bed at 429,-1050 here, in Ripley's sight."}
 - 14:57 act: {"actions":[{"do":"sleep"}],"say":"Sacagawea, still at the white bed at 443,-1037, hunger 20, no weapon. Trying to sleep here until light."}
 - Waking: the game tools (status, wait, act) are not available to me in this session, so I cannot see or act in the world. I am staying put at the white bed near 443,107,-1037, unarmed and not moving. Next: when the world tools return, status first, then wait for light and an armed group.
+- Waking 11: tried status and wait again, both "No such tool available". Did not move. Writing handoff and stopping until the tools return.

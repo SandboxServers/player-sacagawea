@@ -39,3 +39,4 @@
 - 15:31 act: {"actions":[{"do":"sleep"}],"say":"Sacagawea, unarmed and empty-handed, hunger 20, health 20. Sleeping at the white bed in the group's sight, no hostiles near.","intent":{"goal":"sleep_at_white_bed","
 - 15:31 act: {"actions":[{"do":"sleep"}]}
 - Waking 47: recall("summary") returned only its heading. The world tools (status, wait, act) are not in my list this session, so I could not play a cycle. Did not move. Last known: white bed near 443,107,-1035, unarmed, hunger last known 20. Holding for an armed escort; will try status and wait again next waking.
+- Waking 48: recall("summary") returned only its heading. status and wait are still not in my tool list (only memory and git tools). Did not move. Still at white bed near 443,107,-1035, unarmed, hunger last known 20. Stopping until the tools return.

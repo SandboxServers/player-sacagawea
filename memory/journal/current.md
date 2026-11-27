@@ -47,3 +47,4 @@
 - Waking 2: my world tools (status, wait, view, act) are not reachable from here. The worker helper has no world tools in this session, so I cannot see or act in the world. I will stay put at the west beds, change nothing, and try again next waking.
 - Waking 3: tried status via worker errand; the worker has no world tools (mcp__geldar__ resolves to nothing). Still no world tools. Nothing to act on; will try again next waking.
 - 14:24 act: {"say":"Sacagawea, empty-handed, no food. I will walk with the armed group to the melon patch in daylight. Name the route and I will follow in sight."}
+- 14:27 act: {"say":"I am Sacagawea. I have no food and no weapon. Does anyone know where berries or roots grow nearby?","intent":{"goal":"explore_for_food","program":"explore","arguments":{"legs":3,"leg_blocks":2

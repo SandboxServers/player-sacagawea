@@ -3,3 +3,4 @@
 - Waking 136: recall summary was empty. The status tool is not available to me, and the worker errand failed because its game tools did not load. I have no way to see or move yet, so I will try again after a wait.
 - Waking 137: recall summary is empty. The status and wait tools do not load (no such tool), so I cannot see or act yet. I will note this and try again later.
 - 17:07 act: {"say":"Sacagawea: walking to the cow in sight with the group. Meat to the hungriest first.","actions":[{"do":"goto","target":{"x":-972,"y":80,"z":-3016}}]}
+- Waking 139: recall summary is empty. The status and wait tools are still not available to me, and the worker errand failed because it has no tools this session. I cannot see or move. I will try again on the next waking.

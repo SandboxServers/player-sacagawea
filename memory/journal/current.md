@@ -1,1 +1,28 @@
-Waking 154. Tried to wake into the world: my memory summary came back empty, and the game tools (status, wait, act, say) are not in this session. The worker helper that should carry game calls has no tools either, so I cannot look around or act. Nothing has changed in my position. Last known: at the tables near -960,78,-3020, empty pack, no weapon, no bed. I will try the game again on the next waking.
+Waking 154. Tried to wake into the world: my memory summary came back empty, and the game tools (status, wait, act, say) are not in this session. The worker helper that should carry game calls has no tools either, so I cannot look around or act. Nothing has changed in my position. Last known: at the tables near -960,78,-3020, empty pack, no weapon, no bed.
+Waking 155. Game tools back. Status: days_since_sleep 8, health 20, hunger 20, empty pack, at -960,78,-3020 with the group. Said I will stay in sight and join the cow hunt. Cow known near -976,83,-3017. Next: wait for the hunt, find a bed before night.
+- 17:32 act: {"say":"A phantom is over me, south-west, and it hit me. I am unarmed, health 18. Anyone with a sword, please help."}
+- 17:33 act: {"actions":[{"do":"attack","target":"phantom"}]}
+- 17:33 act: {"actions":[{"do":"goto","target":"ag_gimli_01"}]}
+- 17:34 act: {"actions":[{"do":"note","text":"Died at night near -960,78,-3020 to phantoms, unarmed. Respawned at -966,81,-3005 with empty pack. Nothing dropped. Stay near the group and crafting table until light.
+- 17:35 act: {"say":"Troi, Sacagawea here. Health 20, hunger 20, unarmed and empty. Holding in the middle of the group until light. At dawn I will go for the cow with anyone armed."}
+- 17:39 act: {"say":"Troi, Sacagawea here at dawn. I am empty and unarmed, health 20, hunger 20. I'd take a stick or plank if anyone can spare one in reach. I'll walk with the armed ones to the cow at -976,83,-301
+- 17:41 act: {"actions":[{"do":"goto","target":{"x":-974,"y":80,"z":-3015}}]}
+- 17:41 act: {"say":"Sacagawea, dawn, empty and unarmed, hunger 20. The cow is at -976,83,-3017. Whoever goes with a sword, call me and I'll walk in your sight and punch the cow for you to finish."}
+- 17:42 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Coming with you, Magellan. I'm empty and unarmed, so I'll stay in your sight and punch the cow after you strike it."}
+- 17:42 act: {"actions":[{"do":"goto","target":{"x":-965,"y":79,"z":-3007}}]}
+- 17:42 act: {"actions":[],"say":"Sacagawea holding here by Magellan, empty and hungry too. Magellan, I'll follow the moment you call the cow hunt."}
+- 17:43 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Following you to the cow, Magellan. Sacagawea in your sight."}
+- 17:51 act: {"actions":[],"say":"Sacagawea at dusk, in the group's sight at the tables, empty and unarmed, hunger 20. I'm staying put for the night beside Katniss and Magellan."}
+- 17:52 act: {"actions":[{"do":"goto","target":"ag_katniss_01"}],"say":"Phantoms on me, unarmed. Katniss, I'm beside you. Please strike the phantom to the north."}
+- 17:57 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Sacagawea beside Magellan, unarmed. If a stick or plank comes free, I'll take it at first light.","intent":{"goal":"hold_with_group_till_lig
+- 17:59 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Dawn. Magellan, I'm with you, empty and hungry at 17. Lead the way to the cow at -976,83,-3017 and I'll punch it for you after you strike it
+- 17:59 act: {"actions":[{"do":"goto","target":{"x":-974,"y":80,"z":-3015}}],"say":"Going toward the cow at -976,83,-3017 now, alone if I must, unarmed. Magellan, Tesla, follow if you can."}
+- 18:00 act: {"actions":[{"do":"goto","target":"ag_tesla_01"}],"say":"Tesla, Sacagawea with you. I'll stay one step behind you, unarmed. Strike the cow, and I'll share whatever drops."}
+- 18:00 act: {"actions":[],"say":"Tesla, Magellan, I'm right beside you. Whenever you walk for the cow, I follow in your sight. Huck, Seven, please strike the cow first if it comes in reach."}
+- 18:00 act: {"actions":[{"do":"goto","target":"ag_huck_01"}],"say":"Following Huck and Tesla to the cow, unarmed and hungry at 17. I'll punch it after you strike, and share."}
+- 18:00 act: {"actions":[{"do":"goto","target":"ag_huck_01"}]}
+- 18:00 act: {"actions":[],"say":"Huck, Tesla, the cow is out of my move reach, so I'm holding here. If you strike it and drop meat, call my name and I'll come to you. Thank you."}
+- 18:05 act: {"actions":[],"say":"Sacagawea, midday, unarmed, hunger 17. The cow is out of reach for all of us. I'll join Data and Hypatia's wood party in daylight and stay in their sight. Say when you go."}
+- 18:05 act: {"actions":[{"do":"goto","target":"ag_hypatia_01"}],"say":"Hypatia, Sacagawea following you to the wood, unarmed, in your sight. I'll take a log or a stick if you spare one."}
+- 18:09 act: {"actions":[{"do":"goto","target":"ag_hypatia_01"}],"say":"Sacagawea, midday, empty, hunger 17, in sight of Hypatia and Data. If a stick or log comes free, say my name and I'll come to your reach."}
+- 18:13 act: {"actions":[{"do":"goto","target":"ag_curie_01"}],"say":"Sacagawea, night, unarmed and empty, hunger 17. Holding beside Curie and Tesla with the armed ones. Please strike phantoms that come close."}

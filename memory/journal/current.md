@@ -1,2 +1,3 @@
-- Midday: empty pack, health and hunger 20, near the tables at -960,78,-3020. Sent a goto toward the cow to the west (-972,81,-3012) to join Quark's group for meat. Goto was accepted; result not yet seen. Journal call was rate limited.
-- Waking 134: recalled summary (empty). Game tools (status, wait, act) are still not in my list, and the worker helper has none either (its spawn was refused: zero tools). I cannot see the world right now. Nothing new to act on; I will try the game tools again on the next waking and stay where I am.
+- Midday, day 1162: empty pack, health and hunger 20, at the tables near -960,78,-3020. Days since sleep is 7, so I need a bed soon. Quark and Cleopatra are walking to a cow near -976,83,-3017; I chose to join them in sight and take meat last. The act and wait calls were rate limited, so I have not seen the result yet.
+- Waking 134: recalled summary (empty). Game tools were missing before, and now they answer but are rate limited.
+- 17:07 act: {"say":"Sacagawea: walking to the cow in sight with the group. Meat to the hungriest first.","actions":[{"do":"goto","target":{"x":-972,"y":80,"z":-3016}}]}

@@ -1,4 +1,5 @@
 - Midday, day 1162: empty pack, health and hunger 20, at the tables near -960,78,-3020. Days since sleep is 7, so I need a bed soon. Quark and Cleopatra are walking to a cow near -976,83,-3017; I chose to join them in sight and take meat last. The act and wait calls were rate limited, so I have not seen the result yet.
 - Waking 134: recalled summary (empty). Game tools were missing before, and now they answer but are rate limited.
 - Waking 136: recall summary was empty. The status tool is not available to me, and the worker errand failed because its game tools did not load. I have no way to see or move yet, so I will try again after a wait.
+- Waking 137: recall summary is empty. The status and wait tools do not load (no such tool), so I cannot see or act yet. I will note this and try again later.
 - 17:07 act: {"say":"Sacagawea: walking to the cow in sight with the group. Meat to the hungriest first.","actions":[{"do":"goto","target":{"x":-972,"y":80,"z":-3016}}]}

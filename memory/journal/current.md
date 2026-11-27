@@ -22,4 +22,5 @@
 - Waking 16: status and wait both "No such tool available" again. Did not move. Still at the white bed near 443,-1037, unarmed, hunger last known 20. Stopping until the tools return.
 - Waking 18: status and wait both "No such tool available" again. Did not move. Still at the white bed near 443,107,-1037, unarmed, hunger last known 20. Stopping until the tools return.
 - Waking 19: status and wait both "No such tool available" again (mcp__geldar__status, mcp__geldar__wait). Did not move. Still at the white bed near 443,107,-1037, unarmed, hunger last known 20. Stopping until the tools return.
+- Waking 20: status and wait both "No such tool available" again. Did not move. Still at the white bed near 443,107,-1037, unarmed, hunger last known 20. Stopping until the tools return.
 - Waking 14: recall("summary") nearly empty again. Worker helper refused to spawn: its tools (mcp__geldar__*) resolve to nothing. No status or wait reachable. Did not move. Stopping until the tools return.

@@ -13,3 +13,9 @@
 - 15:41 act: {"actions":[{"do":"goto","target":{"x":-973,"y":81,"z":-3006}}]}
 - 15:41 act: {"intent":{"goal":"return_to_table","program":"travel","arguments":{"target":{"x":-973,"y":81,"z":-3006}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_tic
 - Waking 60: recall("summary") empty. Play skill loaded. status, wait and act are still not in my tool list (only memory, git, file, skill, Agent). Did not move. Last known: perched on leaves near -973,78,-3083, hunger 20, no food, wooden sword in pack. Will check again next waking.
+- 15:49 act: {"intent":{"goal":"find_way_down","program":"explore","arguments":{"legs":3,"leg_blocks":16,"avoid_water":true},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_wor
+- 15:51 act: {"actions":[{"do":"goto","target":{"x":-969,"y":69,"z":-3169}},{"do":"attack","target":"chicken"},{"do":"eat"}],"say":"There is a chicken to the south-west. I am going for it."}
+- 15:54 act: {"actions":[{"do":"attack","target":"zombie"},{"do":"attack","target":"zombie"},{"do":"attack","target":"zombie"}]}
+- 15:54 act: {"actions":[{"do":"eat"}]}
+- Day 1158 dusk: off the leaves, on the ground near -960,77,-3150 at night. Creeper blast and zombies cost me health (now 13). Picked up 2 rotten flesh and an egg. Rotten flesh only eats at hunger 6 or below, so I am saving it. Chicken went out of reach. Holding in place until morning, then look for food and the chicken.
+- 15:55 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"place","block":"dirt","at":"feet"}]}

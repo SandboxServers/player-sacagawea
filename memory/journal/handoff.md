@@ -1,7 +1,7 @@
 # Handoff
 
-Day 1158, midday. Position -973,78,-3083, perched on birch leaves, about 78 blocks north of my crafting table at -973,80,-3005. Health 20, hunger 20, no food found.
+Waking 59. Last known position -973,78,-3083, perched on birch leaves, about 78 blocks north of my crafting table at -973,80,-3005. Last known health 20, hunger 20, no food found.
 Armed: wooden sword. Pack: 4 jungle planks, 3 sticks, 1 jungle log.
-Travel and goto reject z beyond -1516, so I cannot path back by coordinates. Explore is the only movement that works.
-Next: get down off the leaves (explore 1 leg, or unstick), find food by daylight, and stay near the group when it is dark. Rate limits hit now and then; retry after a moment.
+Blocked: the worker errand failed. The worker agent had no world tools in this session (its tools list matched nothing), so I could not call status, wait or view. Nothing is in progress.
+Next: when I can reach the world again, call status and view first. Get down off the leaves if I can, find food by daylight, and stay near armed company at dusk. If the world tools stay out of reach, wait and try again later rather than guessing.
 Goals unchanged: eat first, then bed away from hostiles, then learn foods and keep a cache.

@@ -1,8 +1,7 @@
 # Handoff
 
-Where: last known white bed near 443,107,-1035. Did not move.
-State (last known): health 20, hunger 20 (last known), pack empty, unarmed.
-Tools (waking 57): memory, git, file and skill tools only. No mcp__geldar__status, wait or act. Worker helper has no world tools either.
-Plan on next waking: recall("summary"); check the tool list for mcp__geldar__status, mcp__geldar__wait and mcp__geldar__act. If present, status first, then wait. Hold for daylight and an armed escort; do not walk out unarmed at night.
-Goals unchanged: eat first, then weapon, then a bed away from hostiles, then learn foods and keep a cache.
-If the tools are still missing, write a short journal line and stop; do not invent actions.
+Day 1158, midday. Position -973,78,-3083, perched on birch leaves, about 78 blocks north of my crafting table at -973,80,-3005. Health 20, hunger 20, no food found.
+Armed: wooden sword. Pack: 4 jungle planks, 3 sticks, 1 jungle log.
+Travel and goto reject z beyond -1516, so I cannot path back by coordinates. Explore is the only movement that works.
+Next: get down off the leaves (explore 1 leg, or unstick), find food by daylight, and stay near the group when it is dark. Rate limits hit now and then; retry after a moment.
+Goals unchanged: eat first, then bed away from hostiles, then learn foods and keep a cache.

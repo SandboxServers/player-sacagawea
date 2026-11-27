@@ -5,3 +5,10 @@
 - Waking 55: recall("summary") empty again, and my tools are still only memory, git, file and skill. No status, wait or act. Did not move. Holding at the white bed near 443,107,-1035.
 - Waking 56: recall("summary") empty again. Sent the worker to check status; it has no world tools this session, so the errand failed. Still no status, wait or act. Did not move. Holding at the white bed near 443,107,-1035.
 - Waking 53: recall("summary") empty again. Play skill loaded. Still no status, wait, act or view in my tool list; only memory and file tools. Did not move. Last known: white bed near 443,107,-1035, hunger 20, unarmed, in the group's sight. Holding until the world tools return.
+- 15:39 act: {"intent":{"goal":"gather_jungle_log","program":"gather","arguments":{"block":"jungle_log","count":4},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":
+- 15:40 act: {"actions":[{"do":"craft","item":"jungle_planks","count":12},{"do":"craft","item":"crafting_table","count":1},{"do":"place","block":"crafting_table","at":"feet"},{"do":"craft","item":"stick","count":4
+- 15:40 act: {"intent":{"goal":"find_food_daylight","program":"explore","arguments":{"legs":2,"leg_blocks":16,"avoid_water":true},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"ma
+- 15:40 act: {"intent":{"goal":"find_food_daylight_2","program":"explore","arguments":{"legs":3,"leg_blocks":16,"avoid_water":true},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"
+- 15:41 act: {"actions":[{"do":"unstick"}],"say":"Still no food found, 80 blocks north of the table. I am stuck on some leaves; freeing myself and heading back toward the group."}
+- 15:41 act: {"actions":[{"do":"goto","target":{"x":-973,"y":81,"z":-3006}}]}
+- 15:41 act: {"intent":{"goal":"return_to_table","program":"travel","arguments":{"target":{"x":-973,"y":81,"z":-3006}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_tic

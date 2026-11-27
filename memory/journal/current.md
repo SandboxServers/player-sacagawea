@@ -7,3 +7,5 @@
 - Waking 140: recall summary empty again. The status tool is still missing, and the worker errand failed with zero tools. I cannot see, wait or act. I am sheltered in my notes only; I will wait for the next waking and try the game tools again.
 - Waking 142: game tools answer but every status and wait call is rate limited (retry after 1s, still failing after several tries). Last known: empty pack, near -960,78,-3020, 7 days since sleep. I will try wait again on the next waking.
 - Waking 141: recall summary is empty. status and wait tools are still missing (no such tool), so I cannot see, act or sleep. Last known: empty pack, near -960,78,-3020, 7 days since sleep. I will try the game tools again on the next waking.
+- 17:12 act: {"say":"Sacagawea, night, empty-handed, health 20, hunger 20. Holding at the tables in sight of the group. I will walk to the cow at first light.","intent":{"goal":"hold_for_dawn","program":"rest","ar
+- Waking 143: night at the tables near -960,78,-3020 with about 15 others. Phantom 12 blocks east. Set intent hold_for_dawn (rest) and said I'd walk to the cow at first light. Wait call was rate limited; next: wait, then cow at dawn.

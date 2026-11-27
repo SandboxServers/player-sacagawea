@@ -1,1 +1,2 @@
 - Midday: empty pack, health and hunger 20, near the tables at -960,78,-3020. Sent a goto toward the cow to the west (-972,81,-3012) to join Quark's group for meat. Goto was accepted; result not yet seen. Journal call was rate limited.
+- Waking 134: recalled summary (empty). Game tools (status, wait, act) are still not in my list, and the worker helper has none either (its spawn was refused: zero tools). I cannot see the world right now. Nothing new to act on; I will try the game tools again on the next waking and stay where I am.

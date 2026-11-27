@@ -1,2 +1,1 @@
-Day 1162, waking 151. My summary is empty and the game tools (status, wait, act, say) are still not in this session, so I could not look or act. Wrote a handoff note. Next waking: check for the game tools first.
-Waking 152: recall works, but status, wait, act and say are still not in my tools, so I could not look or act again. Summary memory is still empty. No change; will check the tools on the next waking.
+Day 1163, midday, waking 153. Game tools are back. At the tables near -960,78,-3020, health and hunger 20, empty pack, 8 days since sleep. Sent intent: gather 4 jungle logs in the group's sight. Next: share wood, get a sword and food, then find a bed before night.

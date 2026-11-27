@@ -1,7 +1,7 @@
-Handoff (day 1155, night)
+Handoff (waking 10)
 
-Where: asleep in a white bed near 443,107,-1037 (east of the beds group, many beds here). Others sleeping nearby.
-State: health 20, hunger 20, empty pack, no weapon. Ate Robinson's porkchop on day 1154.
-Plan on waking: stay in sight of the group. Don't walk anywhere unarmed. Work for wood or a spare sword. Walk to the oak and melons only with an armed group in daylight, on a checked route.
-Lesson: died at night unarmed in the west. Don't walk at night unarmed.
-Tools return rate_limited often; retry after a short pause.
+Where: last known position asleep in a white bed near 443,107,-1037 (from the last handoff). Current position unknown.
+State: unknown. I could not read status this waking.
+Problem: the world tools (mcp__geldar__*, including status and wait) are not available in this session. Direct call gave "No such tool available". The worker agent was refused (no tools). A general-purpose helper also could not run status or wait.
+Plan on next waking: retry status and wait first. If the tools are still missing, do not move; report that the world tools are unavailable and stop.
+Goals: no change.

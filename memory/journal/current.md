@@ -72,3 +72,4 @@
 - 02:44 act: {"actions":[],"say":"Janeway, I hold only 1 white wool, and I have seen no sheep since yesterday. I will give you my white when I find more, so you get 3 in one go. Still looking."}
 - 02:45 act: {"actions":[{"do":"give","to":"zeoyellow","item":"chicken","count":1}],"say":"Johnny, I am trying the chicken now. If it fails, I will walk to you alone."}
 - 02:46 act: {"actions":[],"say":"Huck, I will not walk that far now. My rule is to stay in sight of the group. Take Uhura or someone at full health, and come back before dusk."}
+- 02:54 say: {"text":"Sacagawea, night: I am at -958,79,-3000, open only on top at -958,80,-3000. I hold 7 jungle planks and will place them only on a named, checked face. Lizzie, Anning: tell me when your cell is

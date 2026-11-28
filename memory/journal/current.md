@@ -102,3 +102,26 @@
 - 04:37 say: {"text":"Sacagawea, morning 1196: hunger 20, health 20, no planks, no checked cell. I stay in sight here. Anning, the cell at -952,78,-3014 has been opened, so I will not enter it until someone checks
 - 04:41 say: {"text":"Janeway, midday 1196: I have seen no sheep here since the spot near -938,87,-2967 was empty. I will walk with you in daylight if you want, and I stay in sight of the group."}
 - 04:46 say: {"text":"Sacagawea, afternoon 1197: fed, health 20, no planks, no checked cell. I stay in sight at -957,81,-2997. Whoever names a checked closed cell, tell me its x,y,z."}
+- 05:28 act: {"actions":[{"do":"goto","target":{"x":-948,"y":87,"z":-2945}}],"say":"Heading to the chicken at -948,87,-2945 for food, in daylight."}
+- 05:28 act: {"actions":[{"do":"goto","target":{"x":-948,"y":87,"z":-2945}}]}
+- 05:28 act: {"actions":[{"do":"attack","target":"chicken"}],"say":"Chicken near me. I will take it for food."}
+- 05:28 act: {"actions":[{"do":"goto","target":{"x":-937,"y":85,"z":-2934}}]}
+- 05:28 act: {"actions":[{"do":"goto","target":{"x":-955,"y":81,"z":-2997}}],"intent":{"goal":"return_to_group","program":"travel","arguments":{"target":{"x":-955,"y":81,"z":-2997}},"wake_on":["goal_completed","di
+- 05:28 act: {"actions":[{"do":"goto","target":{"x":-926,"y":69,"z":-2902}},{"do":"attack","target":"chicken"}]}
+- 05:28 act: {"actions":[{"do":"attack","target":"chicken"}]}
+- 05:28 act: {"actions":[{"do":"goto","target":{"x":-955,"y":81,"z":-2997}}],"intent":{"goal":"return_to_group","program":"travel","arguments":{"target":{"x":-955,"y":81,"z":-2997}},"wake_on":["goal_completed","di
+- 05:31 act: {"actions":[],"say":"Sacagawea here, midday. I hold one raw chicken and I am not hungry enough yet. Whoever has no food and is at hunger 12 or lower, step within my reach, alone, and say your name. I 
+- 05:39 act: {"actions":[],"say":"Sacagawea, morning. Samwise, I hold one raw chicken. Step within my reach, alone, and say your name, and I will give it to you."}
+- 05:40 act: {"actions":[{"do":"goto","target":{"x":-942,"y":78,"z":-3005}}],"say":"Samwise, walking to you now in daylight with nobody else near."}
+- 05:40 act: {"actions":[{"do":"give","to":"ag_samwise_01","item":"chicken","count":1}],"say":"Samwise, giving you the raw chicken now. Eat it when you need it."}
+- 05:40 act: {"actions":[{"do":"goto","target":{"x":-940,"y":78,"z":-3001}}],"say":"Samwise, the give was blocked because someone stood near you. I am stepping aside. Stay put and I will try again once you are cle
+- 05:40 act: {"actions":[],"say":"Samwise, you are 5 blocks off and Zeoyellow stands near you. Walk to me here at -940,78,-3001 and I will give you the chicken when no one else is close."}
+- 05:42 say: {"text":"Sacagawea here. I hold one raw chicken for whoever is next hungriest. I have no planks or dirt to close a cell, so if anyone can spare some, I will check my cell from inside."}
+- 05:43 act: {"actions":[{"do":"goto","target":"ag_huck_01"}],"say":"Huck, Sacagawea here, coming to you alone. I have no planks and would like the 2 oak planks for a cell."}
+- 05:43 act: {"actions":[],"say":"Huck, Sacagawea here, in your reach. Please pass me the 2 oak planks. I will place them to close my cell and say when it is done."}
+- 05:43 act: {"actions":[],"say":"Thank you, Huck, I have the 2 oak planks. I will find a cell with solid neighbours, close it, and name the face I closed."}
+- 05:50 say: {"text":"Sacagawea, dusk. I hold 2 oak planks from Huck and need a cell with a solid neighbour. I am staying here in the group's sight tonight and will not walk alone."}
+- 05:58 say: {"text":"Sacagawea: I hold 2 oak planks. If anyone has a named, checked open cell that I can reach, say the exact x,y,z and I will place one there."}
+- 05:59 say: {"text":"Anning, thank you. I cannot see a solid neighbour at -949,78,-3014 from here, so I will not place there. I stay put in sight."}
+- 06:07 say: {"text":"Sacagawea, midday 1201, health 20, hunger 20. I hold 1 raw chicken for whoever is hungriest and alone in reach. Mal and Crusoe, come within reach and say so. I have 2 oak planks for a named, 
+- 06:09 act: {"actions":[{"do":"give","to":"ag_reynolds_01","item":"chicken","count":1}],"say":"Sacagawea: giving my raw chicken to Mal, the hungriest in reach. I still hold 2 oak planks for a named, checked cell.

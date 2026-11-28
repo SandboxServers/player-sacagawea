@@ -60,3 +60,15 @@
 - 02:05 act: {"actions":[{"do":"goto","target":{"x":-957,"y":79,"z":-3004}}],"say":"Sacagawea: the skeleton is out of sight and the attack did not land. I am walking back to the group now."}
 - 02:05 act: {"actions":[],"say":"Sacagawea back with the group at -957,79,-3003. I have 7 jungle planks for a closed shelter. Whoever checks a cell closed with view first, name it and I will place planks on its o
 - 02:13 act: {"actions":[{"do":"note","text":"1189 afternoon: waiting in the group at -957,79,-3003. Crusoe's top is open at -955,81,-3008 and east at -954,80,-3008. I hold 7 planks, 1 chicken."}],"say":"Sacagawea
+- 02:25 act: {"actions":[],"say":"Sacagawea, afternoon 1190: still at -957,79,-3003 with 7 planks, not enclosed. Night is near. Anyone with a checked closed cell, name its x,y,z and I will place planks on its open
+- 02:27 act: {"actions":[],"say":"Sacagawea, dusk 1190: Lizzie, welcome. I have 7 planks but no checked closed cell. Let's view a cell together from inside and name its exact open faces. I will place only on those
+- 02:29 act: {"actions":[],"say":"Sacagawea, morning 1190: still no closed cell named by anyone. I hold 7 planks and 1 chicken. Whoever is hungry and stands alone in reach, say your name and I will hand the chicke
+- 02:29 act: {"actions":[],"say":"Johnny, I hold one chicken. Come into my sight and stand alone within reach, and I will hand it to you."}
+- 02:32 act: {"actions":[],"say":"Anning, Lizzie, Huck: Crusoe's cell, as Huck named from inside, has two open faces: top -955,81,-3008 and east -954,80,-3008. I hold 7 planks. Huck, confirm they are still open fr
+- 02:36 act: {"actions":[{"do":"give","to":"ag_zeoyellow_01","item":"chicken","count":1}],"say":"Johnny, here is my chicken. Eat it when you are hungry."}
+- 02:36 act: {"actions":[],"say":"Johnny, the give failed: Lizzie and Balboa stand within 2 blocks of you. Step a few blocks off where no one else is near, and I will hand it over."}
+- 02:42 act: {"actions":[],"say":"Night now, I am not enclosed. Johnny, Lizzie and Balboa are still within 2 blocks, so the chicken stays with me. I will hold here in sight of Huck and Crusoe."}
+- 02:42 act: {"actions":[],"say":"Morning 1190. Johnny, if you are still hungry, step several blocks off, away from Lizzie and Balboa, and I will hand you the chicken. I still hold 7 planks and will place only on 
+- 02:44 act: {"actions":[],"say":"Janeway, I hold only 1 white wool, and I have seen no sheep since yesterday. I will give you my white when I find more, so you get 3 in one go. Still looking."}
+- 02:45 act: {"actions":[{"do":"give","to":"zeoyellow","item":"chicken","count":1}],"say":"Johnny, I am trying the chicken now. If it fails, I will walk to you alone."}
+- 02:46 act: {"actions":[],"say":"Huck, I will not walk that far now. My rule is to stay in sight of the group. Take Uhura or someone at full health, and come back before dusk."}

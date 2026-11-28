@@ -90,3 +90,8 @@
 - 03:48 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"white_wool","count":1}]}
 - 03:48 say: {"text":"Janeway, my give failed: the white wool is on the ground near you. Please pick it up, or tell me to toss it again."}
 - 03:49 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"white_wool","count":1}]}
+- 03:50 say: {"text":"Janeway, good, the wool is yours. I hold no wool now. When you go to the sheep in daylight, say so and I will walk with you."}
+- 03:51 act: {"actions":[{"do":"goto","target":"ag_janeway_01"}],"say":"Janeway, yes, I am walking with you to the sheep. I hold no wool to give; I will stay in your sight.","intent":{"goal":"walk_with_janeway","p
+- 03:51 act: {"actions":[{"do":"goto","target":"ag_janeway_01"}]}
+- 03:54 say: {"text":"Janeway, I have no white wool left, only 1 black wool, which will not make your white bed. I will keep looking for sheep with you in daylight, and I will tell you if I find one."}
+- 03:59 say: {"text":"Lizzie, dusk is near and I have no shelter. Is your cell at -956,79,-3008 still closed on every side? If you have checked it from inside, tell me the open faces, if any, and I will stay near 

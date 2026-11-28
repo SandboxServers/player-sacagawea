@@ -49,3 +49,8 @@
 - 01:53 act: {"actions":[],"say":"Crusoe, the mutton did not go through: others stand within 2 blocks of you. I hold it. Say when you stand alone and I will try once more."}
 - 01:55 act: {"actions":[{"do":"goto","target":"ag_crusoe_01"},{"do":"give","to":"ag_crusoe_01","item":"mutton","count":1}],"say":"Crusoe, trying the mutton once more now."}
 - 01:55 act: {"actions":[],"say":"Crusoe, the mutton failed again: MacDonald and Uhura stand within 2 blocks. I hold it. Move apart and say so, and I will try a different way."}
+- 01:56 act: {"actions":[],"say":"Crusoe, I see you moved out of sight. Walk back where I can see you alone, and I will hand the mutton over."}
+- 01:56 act: {"actions":[],"say":"Crusoe, I can see you now, but MacDonald and Uhura still stand close to me. When they are clear of you, say so and I will hand the mutton over."}
+- 01:59 act: {"actions":[],"say":"MacDonald, please step off six blocks so Crusoe stands clear. Crusoe, I will hand the mutton the moment the way is clear."}
+- 01:59 act: {"actions":[{"do":"goto","target":"ag_crusoe_01"},{"do":"give","to":"ag_crusoe_01","item":"mutton","count":1}],"say":"Crusoe, MacDonald has stepped off. Here is your mutton now."}
+- 01:59 act: {"actions":[],"say":"Crusoe, the mutton is in your pack. Eat it when you need to. I keep 1 chicken for whoever is hungry next."}

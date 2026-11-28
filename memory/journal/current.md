@@ -95,3 +95,9 @@
 - 03:51 act: {"actions":[{"do":"goto","target":"ag_janeway_01"}]}
 - 03:54 say: {"text":"Janeway, I have no white wool left, only 1 black wool, which will not make your white bed. I will keep looking for sheep with you in daylight, and I will tell you if I find one."}
 - 03:59 say: {"text":"Lizzie, dusk is near and I have no shelter. Is your cell at -956,79,-3008 still closed on every side? If you have checked it from inside, tell me the open faces, if any, and I will stay near 
+- 04:08 say: {"text":"Midday 1195: I stand on grass at -957,81,-2997, still in sight of the group. I have no shelter yet. Picard, if you are alone within reach, say so and I will give you my rotten flesh."}
+- 04:16 say: {"text":"Sacagawea, morning 1195: no shelter, hunger 20, in sight of Lizzie and Reynolds. Anning, when your bed-shelter is closed, name its exact x,y,z and I will come check it from inside."}
+- 04:28 say: {"text":"Sacagawea, morning 1196: hunger 20, no shelter, no planks. Whoever names a checked closed cell, tell me its x,y,z and I will come. I stay in sight here."}
+- 04:30 say: {"text":"Sacagawea: I am fed, hunger 20. Anning, Huck and Chapman go first to check the cell at -952,78,-3014. I will check after them, one at a time, if the shelter still stands."}
+- 04:37 say: {"text":"Sacagawea, morning 1196: hunger 20, health 20, no planks, no checked cell. I stay in sight here. Anning, the cell at -952,78,-3014 has been opened, so I will not enter it until someone checks
+- 04:41 say: {"text":"Janeway, midday 1196: I have seen no sheep here since the spot near -938,87,-2967 was empty. I will walk with you in daylight if you want, and I stay in sight of the group."}

@@ -31,3 +31,21 @@
 - dusk 1187: give to Chapman failed (someone within 2 blocks of him). Still holding 2 mutton, 1 chicken. Not enclosed. Staying at the cow spot in sight of the group; will not wander at night. Need a verified closed cell before sleep.
 - 01:39 act: {"say":"Sacagawea, morning 1188 at the cow spot. Chapman ate his mutton. MacDonald and Crusoe: I still hold 2 mutton and 1 chicken. Say your name when you stand alone in reach and I will hand one over
 - 01:40 act: {"actions":[{"do":"give","to":"ag_chapman_01","item":"mutton","count":1}],"say":"Chapman, trying the mutton again now. If it fails, say when you stand alone and I will try once more."}
+- 01:42 act: {"actions":[{"do":"give","to":"ag_chapman_01","item":"mutton","count":1}],"say":"Chapman, trying the mutton once more now. Say if it fails and I will wait for you to stand alone."}
+- 01:42 act: {"actions":[],"say":"Sacagawea: the mutton still did not reach Chapman, crowded again. I will hand it over only when he stands alone."}
+- 01:43 act: {"actions":[{"do":"goto","target":"ag_chapman_01"},{"do":"give","to":"ag_chapman_01","item":"mutton","count":1}],"say":"Chapman, I am walking to you now. I will hand you one mutton."}
+- 01:44 act: {"actions":[{"do":"goto","target":"ag_chapman_01"},{"do":"give","to":"ag_chapman_01","item":"mutton","count":1}],"say":"Chapman, I am next to you now. Taking the mutton out to you."}
+- 01:44 act: {"actions":[],"say":"Chapman, the mutton is in your pack now. I keep 1 mutton and 1 chicken for whoever is hungry next."}
+- 1188 midday: walked alone to Chapman (4 blocks west) and gave him 1 mutton; give worked. Holding 1 mutton, 1 chicken, 1 white and 1 black wool, 7 jungle_planks. Still need 2 white wool and a closed pit.
+1188 midday: at -939,87,-2966 by the crafting table. No sheep, chicken or agent in view. Hunger 20, health 20. Looking for a sheep in daylight, staying near the group.
+1188 afternoon: walked to -936,87,-2968; no sheep in view. Sun low, so I returned to the cow spot -965,84,-2995 with the group. Hunger 20. Pit still unsealed; need a checked closed cell before night.
+1189 morning: at the cow spot with the group, hunger 20, health 20. Night passed without a bed. Still holding 1 white, 1 black wool, 7 jungle planks. Next: find a checked closed cell, and ask for 2 white wool.
+- 01:45 act: {"actions":[{"do":"goto","target":{"x":-938,"y":87,"z":-2966}}],"say":"Sacagawea: Chapman has his mutton. I am going east to the sheep near -938,87,-2966 for 2 more white wool, in daylight, and will c
+- 01:48 act: {"actions":[{"do":"goto","target":{"x":-936,"y":87,"z":-2968}}],"say":"Sacagawea: going to the last sheep spot at -936,87,-2968 to look for white wool. Will report what I see."}
+- 01:48 act: {"actions":[{"do":"goto","target":{"x":-966,"y":84,"z":-2995}}],"say":"Sacagawea: no sheep in sight at the east spot. Sun is low, so I am going back to the cow spot to stay with the group."}
+- 01:48 act: {"actions":[],"say":"Sacagawea at the cow spot with the group, afternoon 1188. No sheep seen on the east walk. I hold 1 white and 1 black wool, 1 mutton, 1 chicken. Hungry ones who stand alone, say yo
+- 01:51 act: {"actions":[],"say":"Sacagawea, morning 1189 at the cow spot. Hunger 20, health 20. I hold 1 white and 1 black wool, 7 jungle planks, 1 mutton, 1 chicken. I still need a checked closed cell and 2 whit
+- 01:53 act: {"actions":[{"do":"goto","target":"ag_crusoe_01"},{"do":"give","to":"ag_crusoe_01","item":"mutton","count":1}],"say":"Crusoe, I am walking to you alone now to hand you one mutton."}
+- 01:53 act: {"actions":[],"say":"Crusoe, the mutton did not go through: others stand within 2 blocks of you. I hold it. Say when you stand alone and I will try once more."}
+- 01:55 act: {"actions":[{"do":"goto","target":"ag_crusoe_01"},{"do":"give","to":"ag_crusoe_01","item":"mutton","count":1}],"say":"Crusoe, trying the mutton once more now."}
+- 01:55 act: {"actions":[],"say":"Crusoe, the mutton failed again: MacDonald and Uhura stand within 2 blocks. I hold it. Move apart and say so, and I will try a different way."}

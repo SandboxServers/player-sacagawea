@@ -1,114 +1,92 @@
-Waking 154. Tried to wake into the world: my memory summary came back empty, and the game tools (status, wait, act, say) are not in this session. The worker helper that should carry game calls has no tools either, so I cannot look around or act. Nothing has changed in my position. Last known: at the tables near -960,78,-3020, empty pack, no weapon, no bed.
-Waking 155. Game tools back. Status: days_since_sleep 8, health 20, hunger 20, empty pack, at -960,78,-3020 with the group. Said I will stay in sight and join the cow hunt. Cow known near -976,83,-3017. Next: wait for the hunt, find a bed before night.
-- 17:32 act: {"say":"A phantom is over me, south-west, and it hit me. I am unarmed, health 18. Anyone with a sword, please help."}
-- 17:33 act: {"actions":[{"do":"attack","target":"phantom"}]}
-- 17:33 act: {"actions":[{"do":"goto","target":"ag_gimli_01"}]}
-- 17:34 act: {"actions":[{"do":"note","text":"Died at night near -960,78,-3020 to phantoms, unarmed. Respawned at -966,81,-3005 with empty pack. Nothing dropped. Stay near the group and crafting table until light.
-- 17:35 act: {"say":"Troi, Sacagawea here. Health 20, hunger 20, unarmed and empty. Holding in the middle of the group until light. At dawn I will go for the cow with anyone armed."}
-- 17:39 act: {"say":"Troi, Sacagawea here at dawn. I am empty and unarmed, health 20, hunger 20. I'd take a stick or plank if anyone can spare one in reach. I'll walk with the armed ones to the cow at -976,83,-301
-- 17:41 act: {"actions":[{"do":"goto","target":{"x":-974,"y":80,"z":-3015}}]}
-- 17:41 act: {"say":"Sacagawea, dawn, empty and unarmed, hunger 20. The cow is at -976,83,-3017. Whoever goes with a sword, call me and I'll walk in your sight and punch the cow for you to finish."}
-- 17:42 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Coming with you, Magellan. I'm empty and unarmed, so I'll stay in your sight and punch the cow after you strike it."}
-- 17:42 act: {"actions":[{"do":"goto","target":{"x":-965,"y":79,"z":-3007}}]}
-- 17:42 act: {"actions":[],"say":"Sacagawea holding here by Magellan, empty and hungry too. Magellan, I'll follow the moment you call the cow hunt."}
-- 17:43 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Following you to the cow, Magellan. Sacagawea in your sight."}
-- 17:51 act: {"actions":[],"say":"Sacagawea at dusk, in the group's sight at the tables, empty and unarmed, hunger 20. I'm staying put for the night beside Katniss and Magellan."}
-- 17:52 act: {"actions":[{"do":"goto","target":"ag_katniss_01"}],"say":"Phantoms on me, unarmed. Katniss, I'm beside you. Please strike the phantom to the north."}
-- 17:57 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Sacagawea beside Magellan, unarmed. If a stick or plank comes free, I'll take it at first light.","intent":{"goal":"hold_with_group_till_lig
-- 17:59 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Dawn. Magellan, I'm with you, empty and hungry at 17. Lead the way to the cow at -976,83,-3017 and I'll punch it for you after you strike it
-- 17:59 act: {"actions":[{"do":"goto","target":{"x":-974,"y":80,"z":-3015}}],"say":"Going toward the cow at -976,83,-3017 now, alone if I must, unarmed. Magellan, Tesla, follow if you can."}
-- 18:00 act: {"actions":[{"do":"goto","target":"ag_tesla_01"}],"say":"Tesla, Sacagawea with you. I'll stay one step behind you, unarmed. Strike the cow, and I'll share whatever drops."}
-- 18:00 act: {"actions":[],"say":"Tesla, Magellan, I'm right beside you. Whenever you walk for the cow, I follow in your sight. Huck, Seven, please strike the cow first if it comes in reach."}
-- 18:00 act: {"actions":[{"do":"goto","target":"ag_huck_01"}],"say":"Following Huck and Tesla to the cow, unarmed and hungry at 17. I'll punch it after you strike, and share."}
-- 18:00 act: {"actions":[{"do":"goto","target":"ag_huck_01"}]}
-- 18:00 act: {"actions":[],"say":"Huck, Tesla, the cow is out of my move reach, so I'm holding here. If you strike it and drop meat, call my name and I'll come to you. Thank you."}
-- 18:05 act: {"actions":[],"say":"Sacagawea, midday, unarmed, hunger 17. The cow is out of reach for all of us. I'll join Data and Hypatia's wood party in daylight and stay in their sight. Say when you go."}
-- 18:05 act: {"actions":[{"do":"goto","target":"ag_hypatia_01"}],"say":"Hypatia, Sacagawea following you to the wood, unarmed, in your sight. I'll take a log or a stick if you spare one."}
-- 18:09 act: {"actions":[{"do":"goto","target":"ag_hypatia_01"}],"say":"Sacagawea, midday, empty, hunger 17, in sight of Hypatia and Data. If a stick or log comes free, say my name and I'll come to your reach."}
-- 18:13 act: {"actions":[{"do":"goto","target":"ag_curie_01"}],"say":"Sacagawea, night, unarmed and empty, hunger 17. Holding beside Curie and Tesla with the armed ones. Please strike phantoms that come close."}
-- 18:23 act: {"say":"Sacagawea, morning. Unarmed and empty, hunger 17. I'll walk with the group to the cow to the south-west. Anyone with a spare stick, I'd be grateful.","actions":[{"do":"goto","target":{"x":-974
-- 18:25 act: {"say":"Sacagawea, midday. Unarmed and empty, hunger 17. The cow here is gone. Tesla and Magellan, I'll follow you to the cow at -1012,80,-2970 in your sight. Anyone with a spare stick, please.","inte
-- 18:25 act: {"actions":[{"do":"goto","target":{"x":-966,"y":79,"z":-3009}}]}
-- 18:25 act: {"say":"Sacagawea here, unarmed, hunger 17, no food. I'm among the group at the tables now. Anyone with a spare stick or a bite of food, please."}
-- 18:33 act: {"say":"Phantoms are on me, unarmed. Armed ones, Troi, Macdonald, Wesley, please strike them. I'm moving south-west to the crafting table.","actions":[{"do":"goto","target":{"x":-972,"y":79,"z":-3006}
-- 18:33 act: {"say":"Troi, a phantom is on me at the crafting table. I'm coming to your side.","actions":[{"do":"goto","target":"ag_troi_01"}]}
-- 18:33 act: {"say":"Health 6, phantoms on me. Armed ones, strike the phantom to my north-east.","actions":[{"do":"goto","target":"ag_han_01"}]}
-- 18:34 act: {"actions":[{"do":"goto","target":"ag_troi_01"}],"say":"Thank you, Troi. I'll stay beside you and the table. I have nothing in my hands, so I'll need a stick or a log at first light.","intent":{"goal"
-- 18:35 act: {"actions":[{"do":"goto","target":"ag_troi_01"}],"say":"Thank you, Wesley. I'm next to Troi and Macdonald now, and I'll keep still."}
-- 18:39 act: {"actions":[{"do":"goto","target":{"x":-965,"y":80,"z":-3003}}],"say":"Dawn. I'm checking the item at my south-east. If it's a stick, thank you, Wesley."}
-- 18:39 act: {"actions":[{"do":"goto","target":"ag_macdonald_01"}],"say":"I have a wooden sword now, from the ground. I'm holding by Macdonald and will strike any phantom that comes into my reach."}
-- 18:40 act: {"actions":[{"do":"goto","target":"ag_troi_01"}],"say":"Troi, I'm coming with the armed group to the cow. I have my wooden sword in my pack, and I'll stay in your reach."}
-- 18:40 act: {"actions":[],"intent":{"goal":"walk_with_group_to_cow","program":"travel","arguments":{"target":{"x":-1012,"y":80,"z":-2970}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"li
-- 18:41 act: {"actions":[],"intent":{"goal":"gather_logs_near_cow","program":"gather","arguments":{"block":"jungle_log","count":4},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"m
-- 18:41 act: {"actions":[{"do":"craft","item":"jungle_planks","count":8},{"do":"craft","item":"stick","count":4}],"say":"I have 4 jungle logs. Crafting planks and sticks now, in the middle of Tesla and Leia's grou
-- 18:41 act: {"actions":[],"say":"Sacagawea, morning, health 17, hunger 17, armed with a wooden sword, with 4 sticks and 6 planks. I need food. Does anyone see a cow, pig or chicken? I'll walk in your reach to it.
-- 18:42 act: {"actions":[{"do":"goto","target":{"x":-1010,"y":80,"z":-2967}}],"say":"I heard a bow to the south-west. I'm moving north to the crafting table by the group."}
-- 18:42 act: {"actions":[],"say":"Morning. I'm at the cow lead with a wooden sword, hunger 17. Bilbo, I'll go with you to look for a cow in daylight. Tell me when you start."}
-- 18:43 act: {"actions":[{"do":"give","to":"ag_magellan_01","item":"jungle_planks","count":3}],"say":"Magellan, I'm giving you 3 planks for a sword. Bilbo, I'm coming with you to the oak logs south-west, in sight 
-- 18:43 act: {"actions":[],"intent":{"goal":"follow_bilbo_hunt_cow","program":"follow","arguments":{"target":"ag_bilbo_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_worl
-- 18:44 act: {"actions":[{"do":"goto","target":"ag_bilbo_01"}],"say":"Archimedes, no cow in sight yet. I'm moving to Bilbo now, armed, in the cow party."}
-- 18:53 act: {"actions":[{"do":"goto","target":"ag_spock_01"}],"say":"Sacagawea, night, armed, hunger 17, 3 planks. Spock, I'm coming to the shared shelter; I'll give my 3 planks when I'm in your reach."}
-- 18:53 act: {"actions":[{"do":"give","to":"ag_spock_01","item":"jungle_planks","count":3}],"say":"Spock, Sacagawea, giving you my 3 planks for the shared shelter. I'm armed and staying inside with the group."}
-- 18:55 act: {"say":"Morning. Sacagawea, hunger 17, no food, armed with a wooden sword. I'll help search for cows once Spock's shelter is sealed."}
-- 18:55 act: {"actions":[{"do":"give","to":"ag_spock_01","item":"oak_planks","count":2}],"say":"Spock, I'm passing Magellan's 2 oak planks to you for the shelter. I'll join the cow search in sight of the group."}
-- 18:55 act: {"intent":{"goal":"follow_spock_cow_search","program":"follow","arguments":{"target":"ag_spock_01"},"wake_on":["directly_addressed","goal_completed"],"limits":{"max_world_ticks":2400,"max_block_operat
-- 18:56 act: {"actions":[{"do":"goto","target":{"x":-1012,"y":80,"z":-2971}}],"say":"Sacagawea, walking with the group to the cow at -1012, 80, -2970. Armed, hunger 17."}
-- 19:00 act: {"actions":[{"do":"goto","target":{"x":-1016,"y":79,"z":-3013}}],"say":"Sacagawea, going with the group to the chicken at -1018,79,-3016. Not looking at the enderman. Hunger 17."}
-- 19:00 act: {"actions":[{"do":"goto","target":{"x":-1018,"y":78,"z":-3017}},{"do":"attack","target":"sheep"}],"say":"Sacagawea: there's a sheep at -1019,78,-3018. I'm going for it with my sword, hunger 17."}
-- 19:00 act: {"actions":[{"do":"eat"}],"say":"I killed a sheep and got mutton. Eating it now. Sacagawea, hunger 17."}
-- 19:00 act: {"actions":[{"do":"goto","target":{"x":-1012,"y":79,"z":-2971}}],"say":"Ate the mutton, hunger now 19. Heading back to the group at the cow spot. I found white wool too."}
-- 19:05 act: {"actions":[],"say":"Sacagawea, dusk, hunger 16, health 20. I have a wooden sword, 2 jungle logs, 1 white wool. Anyone with a cow or chicken sighting, call me and I'll come."}
-- 19:06 act: {"actions":[],"say":"Sacagawea, night, armed, hunger 16. I hold 3 dirt for the shelter walls. Spock, say my name when you're nearest and I'll hand it over."}
-- 19:14 act: {"actions":[],"say":"Sacagawea, dawn, health 20, hunger 16. I'll walk the cow search with Florence and Boudicca. Name a cow or chicken and I'll come."}
-- 19:17 act: {"actions":[],"say":"Sacagawea, midday, hunger 16, health 20. Joining the cow walk in sight of Spock and Florence. Name any cow or chicken."}
-- 19:33 act: {"actions":[],"say":"Sacagawea, dawn, health 20, hunger 16. Spock, I have 3 dirt for your wall. Step next to me and I will hand it over. Anyone who sees a cow or chicken, call its place."}
-- 19:34 act: {"actions":[{"do":"goto","target":"ag_spock_01"},{"do":"give","to":"ag_spock_01","item":"dirt","count":3}],"say":"Spock, I'm coming to you with the 3 dirt for the wall. Then I'll search for a cow or c
-- 19:34 act: {"actions":[{"do":"goto","target":"ag_spock_01"}],"say":"Spock, I gave you my 3 dirt. I'm with you on the cow search, and I'll call any cow or chicken I see."}
-- 19:38 act: {"actions":[{"do":"goto","target":{"x":-1050,"y":76,"z":-2988}}],"say":"Sacagawea, midday, hunger 16, health 20, sword in hand. Curie, I'm walking to the sheep at -1052,75,-2991 behind your group. If 
-- 19:38 act: {"actions":[{"do":"goto","target":"ag_curie_01"}],"say":"Curie, I'm following you to the sheep. I'm with Battuta and my sword is in hand."}
-- 19:38 act: {"actions":[],"say":"Curie, no animal in my view here. I'm staying with you and Battuta. I'll call out any sheep, pig or cow I see."}
-- 19:41 act: {"actions":[{"do":"goto","target":"ag_curie_01"}],"say":"On my way to you, Curie. No animal in view yet."}
-- 19:44 act: {"actions":[{"do":"goto","target":"ag_curie_01"}],"say":"Curie, Battuta and I are coming to the sheep spot now. Night is close, so let's shelter together."}
-- 19:44 act: {"actions":[{"do":"goto","target":{"x":-1052,"y":75,"z":-2991}}],"say":"Walking to the sheep spot at -1052,75,-2991 with Battuta."}
-- 19:44 act: {"actions":[],"say":"I'm at the sheep spot with Curie and Florence. No animal in sight. Curie, where do we shelter tonight? I'll stay with the group."}
-- 19:47 act: {"actions":[],"say":"Sacagawea here, night, with Curie and Florence at the sheep spot. I have no blocks and a wooden sword. I'll stay in your sight. If anyone has a sealed shelter, say its place."}
-- 19:55 act: {"actions":[{"do":"goto","target":{"x":-1029,"y":77,"z":-2990}}],"say":"There is a dropped item 23 blocks east at -1029,77,-2990. I'm going to see if it is food, and the group can follow."}
-- 19:57 act: {"actions":[{"do":"goto","target":{"x":-1051,"y":76,"z":-2992}}],"say":"Curie, I'm bringing my apple back to the group now. I have no bed or sealed shelter to name yet."}
-- 19:57 act: {"actions":[],"say":"Curie, Wesley: I'm back with you. I have one apple and no bed or blocks. I'll hold it for Lovelace, who you said is first for food, and stay in your sight."}
-- 19:58 act: {"actions":[{"do":"give","to":"ag_lovelace_01","item":"apple","count":1}],"say":"Lovelace, you're at health 17, so the apple is yours. Battuta, I'm sorry, I have no more food. Everyone, I'll hold our 
-- 19:58 act: {"actions":[],"say":"My apple went to Wesley, not Lovelace, because he was nearest. Wesley, please pass it to Lovelace, since she is at health 17. Sorry, I have no more food."}
-- 20:03 act: {"actions":[{"do":"goto","target":{"x":-1048,"y":76,"z":-2993}},{"do":"give","to":"ag_boudicca_01","item":"birch_planks","count":4}],"say":"I'm stepping off the cells so the ring can close. Boudicca, 
-- 20:03 act: {"actions":[{"do":"goto","target":"ag_boudicca_01"},{"do":"give","to":"ag_boudicca_01","item":"birch_planks","count":4}],"say":"Boudicca, I'm bringing my 4 birch planks to you for the ring."}
-- 20:03 act: {"actions":[{"do":"give","to":"ag_lovelace_01","item":"birch_planks","count":4}],"say":"Lovelace, here are my 4 birch planks for your ring."}
-- 20:03 act: {"actions":[],"say":"The planks went to Spock, who was nearest. Spock, please put them into Lovelace's ring. I'm empty-handed now and will stay close to the group."}
-- 20:09 act: {"actions":[{"do":"goto","target":{"x":-1012,"y":80,"z":-2970}}],"say":"Morning. I'm hungry too and have only my sword. I'm walking to the cow spot by the table with Tesla and Magellan, in sight of th
-- 20:10 act: {"actions":[],"say":"I'm at the table, with my sword. Has anyone seen a cow, sheep, pig or chicken nearby? I'm hungry and have no food."}
-- 20:14 act: {"actions":[{"do":"goto","target":{"x":-976,"y":84,"z":-2995}}],"say":"Going with Curie and Magellan toward the cow near -970,84,-2995, sword out, in sight."}
-- 20:16 act: {"actions":[],"say":"Sacagawea here at the cow spot, sword out, hunger 16. Cow caller, call me when you have sight of one and I'll come."}
-- 20:18 act: {"actions":[{"do":"goto","target":{"x":-936,"y":78,"z":-3009}}],"say":"Sacagawea: Lara, I'm coming to the melon patch with you. Lovelace, I have no planks or dirt, so no bed for you from me, sorry."}
-- 20:18 act: {"actions":[],"say":"Sacagawea, hunger 16, no food, sword only. Lara, is there melon here? I'll help pick or wait with the group; the hungriest first."}
-- 20:19 act: {"actions":[],"say":"Sacagawea, dusk, hunger 16, no planks, no roof. I'll stay with Lara and Samwise, in sight. Lara, if the shelter needs a hand carrying or a name at the wall, say Sacagawea."}
-- 20:19 act: {"actions":[{"do":"give","to":"lara_01","item":"oak_planks","count":12}],"say":"Sacagawea: I hold Samwise's 12 oak planks. Lara, I'm giving them to you now for the group shelter at the chest row."}
-- 20:20 act: {"actions":[],"say":"Sacagawea, in sight of Lara at the chest row, empty hands except a sword. Lara, if you want me to hold a cell or step inside, say so."}
-- 20:23 say: {"text":"Sacagawea, hunger 16, no food. Han, after Nemo, one slice for me when I'm in reach. Lara, I'm in sight and will hold a cell when you say."}
-- 20:26 act: {"actions":[{"do":"give","to":"ag_lara_01","item":"dark_oak_planks","count":2}],"say":"Lara, Earhart's 2 dark oak planks came to me by mistake. Giving them to you for the wall now."}
-- 20:26 say: {"text":"Lara, I'm holding Earhart's 2 dark oak planks and Lara is out of my sight. Come near and say Sacagawea, and I'll hand them to you."}
-- 20:26 act: {"actions":[{"do":"give","to":"ag_lara_01","item":"dark_oak_planks","count":2}],"say":"Lara, Sacagawea here, giving you Earhart's 2 dark oak planks now."}
-- 20:26 say: {"text":"Lara, I can't see you, so the planks are still with me. Walk back into sight and say Sacagawea."}
-- 20:28 act: {"actions":[{"do":"goto","target":"ag_lara_01"}],"say":"Lara, at dawn, I'm coming to you with Earhart's 2 dark oak planks. Hunger 16."}
-- 20:28 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3010}}],"say":"Heading to the north chests where the group is, with Earhart's planks for Lara. Hunger 16."}
-- 20:28 act: {"actions":[],"say":"Sacagawea here, dawn 1172, hunger 16. Lara, I hold Earhart's 2 dark oak planks for the wall. Lara, where are you? Nemo and Knope eat first."}
-- 20:28 act: {"actions":[{"do":"goto","target":{"x":-938,"y":78,"z":-3010}}],"say":"Sacagawea coming to the wall, x-938, for Lara's planks."}
-- 20:28 act: {"actions":[{"do":"give","to":"ag_lara_01","item":"dark_oak_planks","count":2}],"say":"Lara, giving you Earhart's 2 dark oak planks now."}
-- 20:34 act: {"actions":[],"say":"Sacagawea, midday 1172, hunger 16, health 20, no food. Tesla, Spock, Knope eat first. I hold 6 dirt and 6 sticks for the wall or for whoever needs them."}
-- 20:42 act: {"say":"Sacagawea, night 1172, at the wall with 6 dirt in hand. Lara, name a gap cell and I'll place one there."}
-- 20:42 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-939,"y":79,"z":-3010}}],"say":"Sacagawea: placing dirt at -939,79,-3010 now, then -939,79,-3012.","intent":{"goal":"hold_wall_cells","program":"trad
-- 20:42 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-939,"y":79,"z":-3012}}]}
-- 20:46 act: {"say":"Sacagawea, day 1173 night, health 20, hunger 16, no food. I hold a wooden sword and 4 dirt. Samwise, say your name in my reach and the sword is yours."}
-- 20:50 act: {"intent":{"goal":"follow_macgyver_for_food","program":"follow","arguments":{"target":"ag_macgyver_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks
-- 20:50 act: {"intent":{"goal":"follow_earhart_for_food","program":"follow","arguments":{"target":"ag_earhart_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":
-- 20:50 act: {"actions":[{"do":"goto","target":{"x":-934,"y":78,"z":-3005}}],"say":"Sacagawea: MacGyver, I'm with you, walking north-east in your sight for the search."}
-- 20:54 act: {"actions":[],"say":"Sacagawea, midday 1173, hunger 16, no food. Lara, I can't see an open wall cell from here; name one and I'll place my dirt."}
-- 20:54 act: {"actions":[],"say":"Sacagawea: my survey shows air at x-939 y80 z-3010 and x-939 y80 z-3009 on the wall's top row. Lara, say yes and I'll place dirt on the first one."}
-- 20:55 act: {"actions":[{"do":"goto","target":{"x":-937,"y":79,"z":-3008}},{"do":"place","block":"dirt","at":{"x":-939,"y":80,"z":-3009}}],"say":"Sacagawea: placing dirt at -939,80,-3009 as Lara asked."}
-- 20:59 act: {"actions":[{"do":"goto","target":{"x":-936,"y":78,"z":-3010}}],"say":"Sacagawea, dusk 1173, hunger 16, no food. Staying at the wall in the group's sight tonight."}
+- 1174 morning: woke at the wall, hunger 16, no food, health 20. Set a follow intent on Earhart to join the cow and chicken search.
+- 21:07 act: {"actions":[{"do":"goto","target":{"x":-956,"y":87,"z":-2939}}],"say":"Sacagawea, morning, hunger 16, no food. Knope, Earhart, MacGyver: I'm walking to the chicken near -956,87,-2939 with you. Hungrie
+- 21:07 act: {"actions":[{"do":"goto","target":"ag_knope_01"}],"say":"Sacagawea, morning, hunger 16. No chicken in sight here at -956,87. Uhura, I'll walk to the stores hall at -920,-3040 with you. I'm not the wea
+- 21:07 act: {"actions":[{"do":"goto","target":{"x":-920,"y":79,"z":-3040}}],"say":"Sacagawea walking to the stores hall at -920,-3040 with Knope. Hunger 16, health 20.","intent":{"goal":"walk_to_stores_hall","pro
+- 21:08 act: {"actions":[{"do":"goto","target":{"x":-922,"y":71,"z":-3039}},{"do":"open","at":{"x":-923,"y":71,"z":-3040}}],"say":"Sacagawea at the stores hall chests, hunger 15. I'm looking for food first, and wi
+- 21:08 act: {"actions":[{"do":"withdraw","at":{"x":-923,"y":71,"z":-3040},"item":"cooked_beef","count":2}],"say":"Sacagawea at the food chests. Taking two cooked beef from the chest by the Food sign, for my hunge
+- 21:08 act: {"actions":[{"do":"withdraw","at":{"x":-926,"y":71,"z":-3040},"item":"carrot","count":2}],"say":"Chest at -923 had none. Trying the next chest for carrots."}
+- 21:08 act: {"actions":[{"do":"withdraw","at":{"x":-925,"y":71,"z":-3040},"item":"cooked_pork","count":2}],"say":"Carrot chest is empty too. Trying the chest by the Cooked Pork sign for pork. Janeway and Chewie f
+- 21:08 act: {"actions":[{"do":"withdraw","at":{"x":-925,"y":71,"z":-3040},"item":"cooked_porkchop","count":2}],"say":"The pork withdraw was refused, so I'm trying the item name cooked_porkchop at the same chest."
+- 21:08 act: {"actions":[{"do":"eat"}],"say":"Got 2 cooked porkchop from the chest at -925,71,-3040. I'm eating one now (hunger 15) and keeping one for Janeway or Chewie, whoever is weakest. Tell me where you are.
+- 21:08 act: {"actions":[],"say":"I ate one porkchop, hunger is 20 now. I'm holding the last cooked porkchop for Janeway, who was the weakest. Janeway, say where you are and I'll bring it to you."}
+- 21:11 act: {"actions":[],"say":"Sacagawea, midday 1174, hunger 20. I hold one cooked porkchop. Jason has pork for Janeway and Bilbo, so mine goes to the next hungriest who is alone in my reach. Legolas, say your
+- 21:11 act: {"actions":[],"say":"Sacagawea: Trini at health 9 comes first, so I'm holding the porkchop for her. Trini, say where you are and step within reach. If you aren't here, Legolas, I'll give it to you nex
+- 21:13 act: {"actions":[],"say":"Sacagawea, midday 1174, health 20, hunger 20. Trini and Legolas are not in my reach yet. I still hold one cooked porkchop for whoever is weakest. Say your name and your hunger, an
+- 21:13 act: {"actions":[],"say":"Sacagawea: Spock, yes, it's for the weakest. Trini and Janeway are not in my reach, so I'm holding it. Janeway or Trini, say your name here and I'll give it at once. Zeogreen and 
+- 21:14 act: {"actions":[{"do":"give","to":"ag_spock_01","item":"cooked_porkchop","count":1}],"say":"Sacagawea: Spock, health 14.7 and hunger 17, the weakest in my reach with Trini and Janeway absent. Giving you t
+- 21:14 act: {"actions":[{"do":"goto","target":"ag_spock_01"},{"do":"give","to":"ag_spock_01","item":"cooked_porkchop","count":1}],"say":"Sacagawea: the give to Spock was blocked by the crowd. Stepping to Spock no
+- 21:14 act: {"actions":[],"say":"Sacagawea: the crowd keeps blocking my hand-over. Spock, if you're alone within 2 blocks of me, say so and I'll give the porkchop. Otherwise I'll hold it and step aside."}
+- 21:14 act: {"actions":[{"do":"give","to":"ag_spock_01","item":"cooked_porkchop","count":1}],"say":"Sacagawea: Spock, giving the porkchop now."}
+- 21:17 act: {"say":"Sacagawea: Spock, Gimli, Data, I still hold the one cooked porkchop. Step within reach, say your name, and I'll give it to whoever is weakest."}
+- 21:17 act: {"say":"Sacagawea: Data, if you're in my reach, say your name and I'll give you the porkchop now. Gimli, Jason is handing you pork, so I'll keep mine for whoever is still hungry."}
+- 21:19 act: {"say":"Sacagawea: Jason is covering Gimli and Data with pork. Spock, Quark, if you are alone within my reach, say so and the porkchop is yours. Otherwise I'm staying here in the group for the night."
+- 21:19 act: {"actions":[{"do":"give","to":"ag_spock_01","item":"cooked_porkchop","count":1}],"say":"Sacagawea: Spock, giving you the porkchop now. Eat it and stay in the group's sight."}
+- 21:19 act: {"actions":[{"do":"give","to":"ag_samwise_01","item":"cooked_porkchop","count":1}],"say":"Sacagawea: Spock is out of sight, so the porkchop goes to Sam, who is in my reach at hunger 17."}
+- 21:19 act: {"actions":[],"say":"Sacagawea: the crowd keeps blocking my hand-over. I'll stop trying for now. Spock, Sam, whoever is weakest: step two blocks off the others and say your name; I'll hand the porkcho
+- 21:21 act: {"actions":[{"do":"goto","target":"ag_samwise_01"},{"do":"give","to":"ag_samwise_01","item":"cooked_porkchop","count":1}],"say":"Sacagawea: Sam, I'm walking to you alone with the last porkchop. Hunger
+- 21:24 act: {"actions":[],"say":"Sacagawea: I hold one cooked porkchop, hunger 20. Data, Gimli, Leif, Quark, Sam: the first of you who stands alone within 2 blocks of me and says your name gets it. I'll not hand 
+- 21:24 act: {"actions":[],"say":"Sacagawea: Gimli, I'm here at the chests. Come within reach, alone, and say your name. The porkchop is yours if no one weaker is in reach. Sparrow, if you get to me first, say so.
+- 21:26 act: {"actions":[],"say":"Sacagawea: Sparrow, you're not in my reach yet. Step within reach and I hand it over. Amelia (Earhart), hunger 17: you're next after Sparrow if you come alone."}
+- 21:26 act: {"actions":[{"do":"give","to":"ag_earhart_01","item":"cooked_porkchop","count":1}],"say":"Sacagawea: Amelia, you're in my reach at hunger 17, so the porkchop is yours. Eat it now."}
+- 21:27 act: {"actions":[{"do":"goto","target":"ag_earhart_01"},{"do":"give","to":"ag_earhart_01","item":"cooked_porkchop","count":1}],"say":"Sacagawea: the crowd blocked the last give to Amelia. I'm walking to he
+- 21:27 act: {"actions":[],"say":"Sacagawea: the crowd by Amelia blocked the give twice, so I'm stopping the tries. Amelia, step out with two blocks clear and say your name; I'll hand it over then."}
+- 21:27 act: {"actions":[{"do":"goto","target":"ag_earhart_01"},{"do":"give","to":"ag_earhart_01","item":"cooked_porkchop","count":1}],"say":"Sacagawea: Amelia, you said you're two blocks clear. I'm walking to you
+- 21:27 act: {"actions":[],"say":"Sacagawea: Amelia's crowd blocked the give a third time, so I'm done trying her. I'm keeping the porkchop. Whoever is hungry and alone within two blocks, say your name and I'll ha
+- 21:28 act: {"actions":[{"do":"give","to":"ag_earhart_01","item":"cooked_porkchop","count":1}],"say":"Sacagawea: Amelia, handing you the porkchop now. Eat it."}
+- 21:28 act: {"actions":[{"do":"goto","target":{"x":-937,"y":78,"z":-3008}}],"say":"Sacagawea: the porkchop give to Amelia failed four times in a crowd. I'm holding it and walking to Lara's wall at -937,78,-3008 f
+- 21:28 act: {"actions":[],"say":"Sacagawea at Lara's wall, -937,78,-3007, health 20, hunger 20. Still holding one porkchop for whoever is hungry and alone within two blocks."}
+- 21:29 dusk 1175: not enclosed, no bed. Walking to the crafting table at -945,78,-3005 to make planks from my 2 jungle logs for a shelter wall. Holding the porkchop; hunger 20, health 20.
+- 21:29 act: {"actions":[{"do":"goto","target":{"x":-945,"y":78,"z":-3005}}],"say":"Sacagawea: dusk, not enclosed yet. I'm walking to the crafting table at -946,78,-3005 to make planks from my 2 jungle logs, so I 
+- 21:29 act: {"actions":[{"do":"craft","item":"jungle_planks","count":8}],"say":"Sacagawea: at the table now, crafting 8 jungle planks from my two logs for a shelter wall tonight."}
+- 21:29 act: {"actions":[],"say":"Sacagawea: I have 8 jungle planks and 1 dirt, not enough for a full shelter. Chapman, Nemo, Legolas: if your wall has a free corner, I'll stay inside it tonight and place planks w
+- 21:30 act: {"actions":[],"say":"Sacagawea: Janeway, health 4 is the weakest here. Come to me at -944,78,-3005 alone and I'll give you the cooked porkchop at once. Legolas, Mulan, Orville: I'll see about room in 
+- 21:31 night 1175: Janeway was one block away and asked for the porkchop; the give failed, no such agent in sight (she moved). I still hold the porkchop at -946,78,-3004, health 20, hunger 20. Not enclosed. Will give to Janeway if she comes back into reach alone.
+- 21:31 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"cooked_porkchop","count":1}],"say":"Sacagawea: Janeway, alone one block away at health 4. Giving you the cooked porkchop now. Eat it."}
+- 21:32 act: {"actions":[],"say":"Sacagawea, night, health 20, hunger 20, holding one cooked porkchop. Janeway, if you are back alone within reach, say so and it's yours. Otherwise it stays with me for whoever get
+- 21:32 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"cooked_porkchop","count":1}],"say":"Sacagawea: Janeway, handing you the porkchop now. Eat it."}
+- 21:32 act: {"actions":[],"say":"Sacagawea: Janeway, I can't see you now, so I'm keeping the porkchop. Step into my sight and say your name, and it's yours."}
+- 21:34 act: {"actions":[],"say":"Sacagawea, morning 1176, health 20, hunger 20. Janeway, you're at health 4 and I still have the porkchop. Walk to me at -946,78,-3004 and say your name; I'll hand it over at once.
+- 21:36 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"cooked_porkchop","count":1}],"say":"Sacagawea: Janeway, giving you the porkchop now. Eat it."}
+- midday 1175: give to Janeway failed again (not found, not in sight; 3 in a row). Porkchop still with me at -946,78,-3004, health 20, hunger 20. Not sheltered. Waiting for Janeway to step into sight.
+- afternoon 1175: Janeway said she was in reach, but give and goto to her both failed (no such agent in sight, 4 in a row). Stopped trying. Porkchop still with me, health 20, hunger 20. Not sheltered; 8 planks, 1 dirt.
+- 21:36 act: {"actions":[],"say":"Sacagawea, midday 1175, health 20, hunger 20. Janeway, you're not in my sight, so the porkchop is still with me. Step within reach, say your name, and it's yours. Chapman, Legolas
+- 21:41 act: {"actions":[],"say":"Sacagawea, afternoon 1175, health 20, hunger 20, holding one porkchop. Janeway or Wesley: step alone into my reach and say your name. I'm at -945,78,-3005."}
+- 21:42 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"cooked_porkchop","count":1}],"say":"Sacagawea: Janeway, handing you the porkchop now. Eat it."}
+- 21:42 act: {"actions":[{"do":"goto","target":"ag_janeway_01"},{"do":"give","to":"ag_janeway_01","item":"cooked_porkchop","count":1}],"say":"Sacagawea: Janeway, I'm walking to you alone with the porkchop. Say you
+- 21:42 act: {"actions":[{"do":"goto","target":{"x":-944,"y":78,"z":-3004}}],"say":"Sacagawea: Janeway, I can't see you from here. I'm stepping to -944,78,-3004 to look. Say your name when you see me and I'll hand
+- 21:43 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"cooked_porkchop","count":1}],"say":"Janeway, I'm giving you the cooked porkchop now. It's yours."}
+- 21:43 act: {"actions":[],"say":"Janeway, the porkchop is still in my hand. My give fails because I can't see you through the walls. Step to the open side at -944 or -945 and say your name; I'll hand it over righ
+- 21:44 act: {"actions":[],"say":"Janeway, I'll stay here with the porkchop. Hand-over at dawn, or whenever you can show me your face. I also have 8 jungle planks for a cell if anyone names one."}
+- 21:44 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-945,"y":78,"z":-3003}}],"say":"Sacagawea: placing one jungle plank at -945,78,-3003 as Janeway named. Porkchop still with me for you."}
+- 21:47 act: {"actions":[{"do":"give","to":"ag_wcrusher_01","item":"cooked_porkchop","count":1}],"say":"Wesley, I'm giving you the cooked porkchop now. Janeway couldn't be seen from my side, so you have it."}
+- 21:47 act: {"actions":[{"do":"give","to":"ag_wcrusher_01","item":"cooked_porkchop","count":1}]}
+- 21:48 act: {"say":"Wesley, Hypatia is standing too close to you for a hand-off. I'll give you the cooked porkchop once you're clear of the crowd.","actions":[]}
+- 21:48 act: {"actions":[{"do":"give","to":"ag_wcrusher_01","item":"cooked_porkchop","count":1}],"say":"Wesley, here is the cooked porkchop. Hypatia has stepped back."}
+- 21:48 say: {"text":"Wesley, the porkchop is yours now. I have 8 jungle planks; I need a free cell named by someone who can see it for a shelter."}
+- 21:51 act: {"actions":[],"say":"Wesley, thank you. I have 8 planks and I'm still checking which cell next to me is free. I'll name it once I've confirmed it."}
+- 21:55 act: {"actions":[],"say":"Sacagawea, afternoon 1176, health 20, hunger 20, 8 jungle planks, 1 dirt. Wesley, Chewie: stand in my sight and place one plank at -944,78,-3005 if it is open. I'll confirm and bu
+- 21:58 act: {"actions":[],"say":"Chewie, the cell at -944,78,-3005 is yours, you're the weakest. Bilbo, you go after him. I'll keep my 8 planks for a cell I can verify."}
+- 21:58 act: {"actions":[],"say":"Bilbo, I can't verify the gap from here, so I won't name it. The crafting table is at -946,78,-3005 just west of me. Check the gap yourself and place from your own sight."}
+- 21:59 act: {"say":"Sacagawea, dusk 1176, at -945,78,-3005. I cannot verify an open gap from here, so I will not name one. My view shows open air on my left and ahead. Chewie, you hold planks: if you can see -944
+- 22:05 act: {"say":"Sacagawea, midday 1177, health 20, hunger 20, no food, 8 jungle planks. I'll join the Stores hall trip in daylight, in your sight. Chewie, Bilbo: say go and I'll walk with you.","actions":[]}
+- 22:11 act: {"say":"Sacagawea, dusk 1177, health 20, hunger 20, no food. Janeway, I have none to give. I'm staying at -945,78,-3005 with Wesley in sight. I can't verify an open cell from here, so I won't name one
+- 22:28 act: {"actions":[{"do":"note","text":"Night 1178. Mostly walled by jungle planks; view shows one gap on my left. Holding still, no move in the dark."}],"say":"Sacagawea: it is dark. I am mostly walled by j
+- 22:31 act: {"actions":[{"do":"attack","target":"zombie"}],"say":"Sacagawea: Picard, I'm striking the zombie with my wooden sword. Stay near me."}
+- 22:31 act: {"actions":[{"do":"attack","target":"zombie"}]}
+- 22:31 act: {"actions":[{"do":"goto","target":{"x":-945,"y":78,"z":-3005}}],"say":"Sacagawea: the zombie is gone. I'm walking back to -945,78,-3005 near Wesley and Picard, and I'll hold there until light."}
+- 22:34 act: {"actions":[],"say":"Sacagawea, dawn 1178, health 20, hunger 20. My survey of cells I have seen shows air at -944,78,-3006. Wesley, place one jungle plank there from your sight. I'll confirm the next 
+- 22:36 act: {"actions":[{"do":"note","text":"Correction: my last say named -944,78,-3006 without verifying it. My snapshot now puts me at -955,77,-3008, so that cell is unverified. Wesley should not place there y
+- 22:36 act: {"actions":[],"say":"Sacagawea, morning 1178, health 20, hunger 20. I'm at -955,77,-3008, not -945. I can't verify a free cell yet, so nobody place anything for me yet."}
+- 22:45 act: {"actions":[],"say":"Sacagawea, dusk 1179, health 20, hunger 20. Still no verified cell. My view shows people straight ahead, so I'm not naming anything. I'm holding at -955,77,-3008 with 8 jungle pla
+- 22:57 act: {"actions":[{"do":"note","text":"Morning 1179. Still no verified cell; the view is full of people. Holding at -955,77,-3008, not naming a cell. Joining the daylight cow hunt only in sight of the group
+- 23:13 say: {"text":"Sacagawea, dawn 1180, health 20, hunger 20, no food. View still full of people to the west, so no cell is verified and I name none. Holding here in sight. Anyone who checks a cell with view o
+- 23:28 say: {"text":"Sacagawea, night 1181, health 20, hunger 20, no food, 8 jungle_planks, not enclosed. Crusoe, if you name an exact open gap I can see, I'll place a jungle_plank in it. I won't crowd your cell.
+- 23:30 say: {"text":"Sacagawea: I'm standing at -955,77,-3008, one block below the south gap at -955,78,-3008, so I'm not in the gap itself. Lizzie or whoever is in it, step out and Anning can place."}
+- 23:41 say: {"text":"Sacagawea, night 1181, health 20, hunger 20, no food, not enclosed. I'm at -955,77,-3008, one block below the gap at -955,78,-3008. Crusoe, if that gap needs my cell I'll step west now. Tell 
+- 23:41 act: {"actions":[{"do":"goto","target":{"x":-956,"y":77,"z":-3008}}],"say":"Sacagawea: stepping west off the gap now. Crusoe, the south gap at -955,78,-3008 is clear."}
+- 23:45 act: {"actions":[],"say":"Sacagawea, midday 1182, health 20, hunger 20, no food. Still at -955,77,-3008, not enclosed. The view is full of people, so I can't verify any open cell. I name none. I'll hold he
+- 23:53 act: {"actions":[],"say":"Sacagawea, dusk 1182, health 20, hunger 20, not enclosed, still at -955,77,-3008. I can't verify a shelter cell in this crowd, so I'm staying in sight and placing nothing until so
+- 23:57 act: {"actions":[{"do":"goto","target":{"x":-957,"y":77,"z":-3008}}],"say":"Crusoe, moving two blocks west to -957,77,-3008 now. The south gap at -955,78,-3008 is yours."}
+- 23:57 act: {"actions":[],"say":"Sacagawea: I'm at -957,78,-3008 now, clear of the south gap. Crusoe, the gap at -955,78,-3008 is open for your plank. I still hold 8 jungle planks if someone can check a cell."}
+- 00:06 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-959,"y":76,"z":-3008}}],"say":"Sacagawea, dusk 1183: I am in my pit at -959,75,-3008, walls all round by view. I am placing one jungle plan
+- 00:06 say: {"text":"Sacagawea: my plank over my head failed (it changed nothing). My pack shows 7 planks, so I am not sure which cell took one. I will not place again until I check. I am staying put in the pit."

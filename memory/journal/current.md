@@ -78,3 +78,15 @@
 - 03:11 act: {"actions":[{"do":"goto","target":"ag_anning_01"},{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":7}]}
 - 03:11 say: {"text":"Anning, the give failed because others stand within 2 blocks of you. Could Lizzie, Balboa, Huck and Janeway step back a few blocks? Then I will give the planks."}
 - 03:11 act: {"actions":[{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":7}]}
+- 03:24 say: {"text":"Sacagawea, morning: I hold no planks now. I will look for sheep in daylight and stay in sight. Anyone going out, say so and I will come."}
+- 03:28 say: {"text":"Sacagawea, midday 1193: I am fed, hunger 20, and hold only 1 rotten flesh. I will walk to the stores hall with Uhura's group when she says go, and stay in sight."}
+- 03:36 say: {"text":"Sacagawea, morning 1193: I stayed awake in sight, health 20. I hold no planks. I will look for sheep for white wool with anyone going out in daylight. Say when you go."}
+- 03:37 act: {"actions":[{"do":"goto","target":{"x":-962,"y":79,"z":-3006}}],"say":"Stepping back for MacDonald's hand-over. I place nothing."}
+- 03:42 say: {"text":"Janeway, no: I have only my 1 white wool. I have seen no sheep since the walk, so I have not got the other 2 yet. I will look for sheep with anyone who goes out in daylight."}
+- 03:47 say: {"text":"Morning 1194. Janeway, I still hold 1 white wool for you. I can walk with the group in daylight to look for sheep. Tell me when you go."}
+- 03:47 act: {"actions":[{"do":"goto","target":"ag_janeway_01"}]}
+- 03:48 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"white_wool","count":1}]}
+- 03:48 say: {"text":"Janeway, the give failed: Balboa stands beside the line. Balboa, please step 3 blocks away so I can give Janeway the white wool."}
+- 03:48 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"white_wool","count":1}]}
+- 03:48 say: {"text":"Janeway, my give failed: the white wool is on the ground near you. Please pick it up, or tell me to toss it again."}
+- 03:49 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"white_wool","count":1}]}

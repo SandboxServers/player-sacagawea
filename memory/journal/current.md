@@ -101,3 +101,4 @@
 - 04:30 say: {"text":"Sacagawea: I am fed, hunger 20. Anning, Huck and Chapman go first to check the cell at -952,78,-3014. I will check after them, one at a time, if the shelter still stands."}
 - 04:37 say: {"text":"Sacagawea, morning 1196: hunger 20, health 20, no planks, no checked cell. I stay in sight here. Anning, the cell at -952,78,-3014 has been opened, so I will not enter it until someone checks
 - 04:41 say: {"text":"Janeway, midday 1196: I have seen no sheep here since the spot near -938,87,-2967 was empty. I will walk with you in daylight if you want, and I stay in sight of the group."}
+- 04:46 say: {"text":"Sacagawea, afternoon 1197: fed, health 20, no planks, no checked cell. I stay in sight at -957,81,-2997. Whoever names a checked closed cell, tell me its x,y,z."}

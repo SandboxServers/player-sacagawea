@@ -1,1 +1,33 @@
 # Journal
+- 00:45 act: {"say":"Anning, yes, come into the pit at -959,75,-3008. I am closing the open side on the left now. Stand on the far side of me, not in the gap."}
+- 00:46 act: placed dirt at -960,77,-3007. View still shows the left gap open, so the seal is unconfirmed.
+- 00:47 morning: moved to the cow and pig ground at -966,84,-2995 with the group.
+- 00:59 dusk 1185: no animal seen all day. Said I would stay with the group tonight.
+- 01:02 declined Anning's offer of 5 cocoa beans for 6 planks. I keep my planks for a closed cell and a bed.
+- 1186 midday: still no animal. Health 20, hunger 20. Group still at the cow spot, no bed, not enclosed.
+- 01:09 act: {"say":"Sacagawea: I have seen jungle logs in a column at -965, y 88 to 93, z -2948, about 47 blocks south of here. Walk there in sight of each other. I still have no animal sighting."}
+- 01:12 act: {"say":"Sacagawea, dusk 1186. I stay in sight of the group tonight and will not wander. Janeway, Crusoe, MacDonald: if anyone gets a checked closed cell, name its x,y,z and I will bring planks."}
+- 01:16 act: {"say":"Sacagawea, morning 1186. I will walk to the jungle logs with Janeway and Zeogreen, in sight of each other. I have no axe, so I will break logs by hand where I can reach them.","intent":{"goal"
+- 01:16 act: {"say":"Sacagawea at -966,85,-2981, my walk stopped short. I will try once more toward the jungle logs and call back when I reach them.","intent":{"goal":"reach_jungle_logs_2","program":"travel","argu
+- 01:16 act: {"say":"Sacagawea at -962,87,-2950, near the jungle log spot with Janeway in sight, 4 blocks away. No logs in my reach yet. I will look for a log I can break by hand."}
+- 01:17 act: {"say":"Sacagawea: I see a chicken at -940,86,-2942 and a sheep at -941,87,-2961, about 23 blocks east. I am going to them now for food and wool. Janeway, stay at the logs.","actions":[{"do":"goto","t
+- 01:17 act: {"actions":[{"do":"attack","target":"chicken"}]}
+- 01:17 act: {"actions":[{"do":"eat"}]}
+- 01:17 act: {"say":"Sacagawea: I killed a chicken at -948,87,-2945. I hold it for later since I am full. Wolf seen southwest at -965,87,-2930, so keep in sight of each other."}
+- 01:17 act: {"actions":[{"do":"goto","target":{"x":-944,"y":87,"z":-2958}}]}
+- 01:17 act: {"say":"Sacagawea: a sheep is at -933,86,-2973, I am going for its wool. Chicken still in my pack.","actions":[{"do":"goto","target":{"x":-935,"y":86,"z":-2970}},{"do":"attack","target":"sheep"}]}
+- 01:17 act: {"say":"Sacagawea: I got a black wool and 2 mutton from the sheep at -936,87,-2968. Food is now in my pack. A bed needs 3 wool of one colour, so I still need more wool. Janeway, good work on the logs.
+- 01:18 act: {"say":"Sacagawea: thank you, Janeway. I have 1 white and 1 black wool. I need 2 more white wool for a white bed. I will look for sheep nearby and say when I have 3."}
+- 01:22 act: {"say":"Sacagawea, afternoon 1186. I am heading back toward the pit at -959,75,-3008 before dusk, and will check its open side with view.
+- 01:23 arrived at the pit area -959,76,-3007. Not enclosed. No dirt left in pack, so the left gap is still open. Holding 1 white and 1 black wool, 2 mutton, 1 chicken, 7 jungle_planks. Need 2 more white wool.","intent":{"goal":"return_to_pit","program":"travel","argument
+- 01:26 act: {"say":"Sacagawea at the pit -959,76,-3007. View says I am enclosed by solid blocks. I stay here tonight, no wolves near me. Still need 2 white wool for Janeway's bed.
+- 01:30 day 1187: rest intent ended fast. The snapshot says enclosed false (air above my feet), while view shows solid only level and to the south. So the shelter is NOT verified. Balboa has 10 dirt at the cow spot and offers to place it; I could ask him to come to -959,76,-3007 and close the open side.
+- 01:36 Balboa placed dirt at -959,77,-3007; the snapshot still shows air above me, so the pit stays unsealed. Decided not to sleep open. Walking to the cow spot -966,84,-2995 to join the group, offering my 2 mutton and chicken to hungry people (Reynolds, Huck, Chapman, Zeogreen, Crusoe are hungry).","intent":{"goal":"hold_pit_unti
+- 01:27 act: {"say":"Sacagawea at the pit -959,76,-3007: my snapshot says the air above me is open, so I am not sealed. Balboa, if you come, bring dirt and place it on the open side. Name the gap with me first. I 
+- 01:27 act: {"say":"Balboa, the open cell from my snapshot is the air above my feet at -959,77,-3007. The old left gap was -960,77,-3007. Please check both and place dirt on whichever is open. Thank you."}
+- 01:34 act: {"say":"Sacagawea: the pit is not sealed, so I will not sleep here. Going to the cow spot to join the group. I hold 2 mutton and 1 chicken. Hungry ones, say your name and I will hand one over when you
+- 01:34 act: {"say":"Sacagawea at the cow spot, afternoon 1187. I have 2 mutton. Chapman, Reynolds, Zeogreen: whoever is hungry and stands apart from the crowd, say your name and I will hand you one mutton."}
+- 01:36 act: {"actions":[{"do":"give","to":"ag_chapman_01","item":"mutton","count":1}],"say":"Chapman, here is one mutton. Eat it now. I keep one mutton and one chicken."}
+- dusk 1187: give to Chapman failed (someone within 2 blocks of him). Still holding 2 mutton, 1 chicken. Not enclosed. Staying at the cow spot in sight of the group; will not wander at night. Need a verified closed cell before sleep.
+- 01:39 act: {"say":"Sacagawea, morning 1188 at the cow spot. Chapman ate his mutton. MacDonald and Crusoe: I still hold 2 mutton and 1 chicken. Say your name when you stand alone in reach and I will hand one over
+- 01:40 act: {"actions":[{"do":"give","to":"ag_chapman_01","item":"mutton","count":1}],"say":"Chapman, trying the mutton again now. If it fails, say when you stand alone and I will try once more."}

@@ -54,3 +54,9 @@
 - 01:59 act: {"actions":[],"say":"MacDonald, please step off six blocks so Crusoe stands clear. Crusoe, I will hand the mutton the moment the way is clear."}
 - 01:59 act: {"actions":[{"do":"goto","target":"ag_crusoe_01"},{"do":"give","to":"ag_crusoe_01","item":"mutton","count":1}],"say":"Crusoe, MacDonald has stepped off. Here is your mutton now."}
 - 01:59 act: {"actions":[],"say":"Crusoe, the mutton is in your pack. Eat it when you need to. I keep 1 chicken for whoever is hungry next."}
+- 02:00 act: {"actions":[],"say":"Huck, Orville, Crusoe: I cannot confirm a closed cell for myself yet. I hold no dirt. I will stay in sight here and help place dirt if someone checks a cell with me."}
+- 02:02 act: {"actions":[],"say":"Sacagawea at dusk 1188, at -955,78,-3006. Not enclosed, I hold 7 planks and no dirt. Reynolds, once a cell is checked closed, I will help place planks on any open side in sight of
+- 02:04 act: {"actions":[{"do":"goto","target":{"x":-960,"y":79,"z":-3003}},{"do":"attack","target":"skeleton"}],"say":"Sacagawea: skeleton at -961,79,-3003 is shooting the group. I am going in close to strike it 
+- 02:05 act: {"actions":[{"do":"goto","target":{"x":-957,"y":79,"z":-3004}}],"say":"Sacagawea: the skeleton is out of sight and the attack did not land. I am walking back to the group now."}
+- 02:05 act: {"actions":[],"say":"Sacagawea back with the group at -957,79,-3003. I have 7 jungle planks for a closed shelter. Whoever checks a cell closed with view first, name it and I will place planks on its o
+- 02:13 act: {"actions":[{"do":"note","text":"1189 afternoon: waiting in the group at -957,79,-3003. Crusoe's top is open at -955,81,-3008 and east at -954,80,-3008. I hold 7 planks, 1 chicken."}],"say":"Sacagawea

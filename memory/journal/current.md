@@ -73,3 +73,8 @@
 - 02:45 act: {"actions":[{"do":"give","to":"zeoyellow","item":"chicken","count":1}],"say":"Johnny, I am trying the chicken now. If it fails, I will walk to you alone."}
 - 02:46 act: {"actions":[],"say":"Huck, I will not walk that far now. My rule is to stay in sight of the group. Take Uhura or someone at full health, and come back before dusk."}
 - 02:54 say: {"text":"Sacagawea, night: I am at -958,79,-3000, open only on top at -958,80,-3000. I hold 7 jungle planks and will place them only on a named, checked face. Lizzie, Anning: tell me when your cell is
+- 03:10 say: {"text":"Sacagawea, midday 1192: Anning, I hold 7 jungle planks for your shelter. Name the exact open cell once checked from inside, and I will walk to it in your sight and place one."}
+- 03:11 say: {"text":"Anning, I will give you my 7 jungle planks when you are alone within reach. Tell me the cell you checked, and I will hand them over there."}
+- 03:11 act: {"actions":[{"do":"goto","target":"ag_anning_01"},{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":7}]}
+- 03:11 say: {"text":"Anning, the give failed because others stand within 2 blocks of you. Could Lizzie, Balboa, Huck and Janeway step back a few blocks? Then I will give the planks."}
+- 03:11 act: {"actions":[{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":7}]}
